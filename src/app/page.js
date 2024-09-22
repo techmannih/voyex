@@ -1,5 +1,6 @@
 import MainSection from "./component/MainSection/MainSection";
 import Navbar from "./component/Navbar/Navbar";
+import Research from "./component/Research/Research";
 import Sponsor from "./component/SponsorSection/Sponsor";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <MainSection />
       <Sponsor />
+      <Research />
     </div>
   );
 }
