@@ -1,6 +1,7 @@
 export default function MainSection() {
   return (
-    <div className="text-white text-center mt-10">
+    <div className="text-white text-center ">
+      <div className="bg-[rgba(114,249,103,1)] h-[50px] flex items-center justify-center mx-10"></div>
       <h1 className="text-[170.92px] font-bold leading-[218.77px] tracking-[2%] text-center">
         Voyex.
       </h1>
