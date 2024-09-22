@@ -13,6 +13,13 @@ export default function MainSection() {
           fringilla accumsan, risus sem.
         </p>
       </div>
+      <div className="flex justify-center mt-8">
+        <button className="mt-8 w-[456.45px] h-[70.91px] text-2xl  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-[51.7px] opacity-100 flex items-center justify-center">
+          <span className="text-[rgba(70,186,60,1)]">
+            Start Your Complete AI Journey
+          </span>
+        </button>
+      </div>
     </div>
   );
 }
