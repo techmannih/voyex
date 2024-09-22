@@ -1,3 +1,5 @@
+import BlogPost from "./component/BlogPost/Blog";
+import Faq from "./component/FAQ/Faq";
 import MainSection from "./component/MainSection/MainSection";
 import Navbar from "./component/Navbar/Navbar";
 import Research from "./component/Research/Research";
@@ -12,6 +14,8 @@ export default function Home() {
       <Sponsor />
       <Research />
       <Template />
+      <BlogPost />
+      <Faq />
     </div>
   );
 }

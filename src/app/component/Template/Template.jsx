@@ -1,6 +1,6 @@
 // Template.js
-import templateData from "./data"; // Adjust the path as necessary
-import Image from "next/image"; // Use Next.js Image component for better optimization
+import templateData from "./data";
+import Image from "next/image";
 
 export default function Template() {
   return (
