@@ -7,22 +7,22 @@ export default function Navbar() {
         <div className="text-2xl font-bold">Voyex.</div>
         <ul className="flex space-x-8 items-center pl-24">
           <li>
-            <Link href="#pricing" className="hover:underline">
+            <Link href="#pricing" className="">
               Pricing
             </Link>
           </li>
           <li>
-            <Link href="#resources" className="hover:underline">
+            <Link href="#resources" className="">
               Resources
             </Link>
           </li>
           <li>
-            <Link href="#about" className="hover:underline">
+            <Link href="#about" className="">
               About us
             </Link>
           </li>
           <li>
-            <Link href="#blog" className="hover:underline">
+            <Link href="#blog" className="">
               Blog
             </Link>
           </li>
