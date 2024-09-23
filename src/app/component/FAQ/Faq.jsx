@@ -1,6 +1,7 @@
-'use client';
+"use client";
 import React, { useState } from "react";
 import voyexFAQs from "./data"; // Adjust the path as necessary
+import { IoIosArrowDown } from "react-icons/io";
 
 export default function Faq() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -23,21 +24,26 @@ export default function Faq() {
             key={index}
             className="faq-item p-4 rounded-full shadow-md"
             style={{
-              background: "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",
+              background:
+                "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",
               border: "1px solid rgba(49, 49, 49, 1)",
             }}
           >
-            <h2 
-              className="text-xl font-semibold cursor-pointer rouned-full" 
-              onClick={() => toggleAnswer(index)}
-              onKeyPress={(e) => {
-                if (e.key === 'Enter') toggleAnswer(index);
-              }}
-              role="button"
-              tabIndex={0}
-            >
-              {faq.question}
-            </h2>
+            <div className=" flex justify-between items-center">
+              <h2
+                className="text-xl font-semibold cursor-pointer rouned-full"
+                onClick={() => toggleAnswer(index)}
+                onKeyPress={(e) => {
+                  if (e.key === "Enter") toggleAnswer(index);
+                }}
+                role="button"
+                tabIndex={0}
+              >
+                {faq.question}
+              </h2>
+              <IoIosArrowDown className="text-[rgba(70,186,60,1)]" />
+            </div>
+
             {activeIndex === index && (
               <p className="text-base mt-2">{faq.answer}</p>
             )}

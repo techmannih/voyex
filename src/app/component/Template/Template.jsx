@@ -1,6 +1,7 @@
 // Template.js
 import templateData from "./data";
 import Image from "next/image";
+import { CiStar } from "react-icons/ci";
 
 export default function Template() {
   return (
@@ -21,17 +22,30 @@ export default function Template() {
             key={template.id}
             className="w-[331.67px]  p-[24px] border rounded-2xl  border-[rgba(49, 49, 49, 1)]"
           >
-            <div className="flex items-center mb-2 justify-between">
-              <Image src={template.logo} alt={template.title} width={40} height={40} />
-              <div className="ml-2 text-yellow-500">⭐</div>
+            <div className="relative">
+              <div className="flex items-center mb-2 justify-between">
+                <Image
+                  src={template.logo}
+                  alt={template.title}
+                  width={40}
+                  height={40}
+                />
+                <div className="ml-2 text-white text-2xl font-bold">
+                  {/* Keeping this div for structure, can be removed if unnecessary */}
+                </div>
+              </div>
+              <div className="absolute top-0 right-0 m-2 text-white text-2xl font-bold">
+                <CiStar />
+              </div>
             </div>
+
             <h1 className="text-lg font-bold">{template.title}</h1>
             <p className="mt-2">{template.description}</p>
             <div className="mt-2 flex flex-wrap gap-1">
               {template.tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="bg-gray-700 text-white py-1 px-2 rounded-full text-xs"
+                  className="border border-gray-700 text-white py-1 px-2 rounded-full text-xs"
                 >
                   {tag}
                 </span>
