@@ -32,7 +32,7 @@ export default function BlogPost() {
         </h1>
       </div>
 
-      <div className="relative max-w-6xl mx-auto">
+      <div className="relative max-w-7xl mx-auto h-auto  ">
         <div className="flex justify-between items-center">
           <button onClick={prevSlide} className="arrow-button">
             <FaArrowLeft color="black" />
@@ -51,7 +51,7 @@ export default function BlogPost() {
               {blogPostData.map((post) => (
                 <div
                   key={post.id}
-                  className="w-[340px] p-4 border border-solid border-gray-900 rounded-[20px] flex flex-col m-2" // Set width explicitly to 300px
+                  className="w-[400px] p-4 border h-auto border-solid border-gray-700 rounded-[20px] flex flex-col m-2" // Set width explicitly to 300px
                 >
                   <div className="relative mb-2">
                     <Image
@@ -62,6 +62,16 @@ export default function BlogPost() {
                       height={180} // Set image height
                       className="rounded-[20px]"
                     />
+                  </div>
+                  <div className="mt-2 flex flex-wrap gap-1">
+                    {post.tags.map((tag, index) => (
+                      <span
+                        key={index}
+                        className="border border-gray-700 text-white  rounded-xl text-xs p-3 "
+                      >
+                        {tag}
+                      </span>
+                    ))}
                   </div>
                   <h1 className="text-lg font-bold">{post.title}</h1>
                   <p className="mt-2">{post.content}</p>

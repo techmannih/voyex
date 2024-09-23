@@ -34,3 +34,19 @@ body {
   z-index: 1;
   border: none; /* Remove default button border */
 }
+.sponsor-carousel {
+  animation: scroll 15s linear infinite; /* Adjust timing for speed */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust as necessary for the total width */
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden; /* Hide overflow to maintain carousel effect */
+}

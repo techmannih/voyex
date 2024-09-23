@@ -41,7 +41,7 @@ export default function Faq() {
               >
                 {faq.question}
               </h2>
-              <IoIosArrowDown className="text-[rgba(70,186,60,1)]" />
+              <IoIosArrowDown className="text-[rgba(70,186,60,1)] text-2xl" />
             </div>
 
             {activeIndex === index && (

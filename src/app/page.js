@@ -5,12 +5,14 @@ import Navbar from "./component/Navbar/Navbar";
 import Research from "./component/Research/Research";
 import Sponsor from "./component/SponsorSection/Sponsor";
 import Template from "./component/Template/Template";
+// import Pricing from "./component/Pricing/Pricing";
 
 export default function Home() {
   return (
     <div className="">
       <Navbar />
       <MainSection />
+      {/* <Pricing /> */}
       <Sponsor />
       <Research />
       <Template />

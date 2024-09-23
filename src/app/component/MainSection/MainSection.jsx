@@ -1,3 +1,5 @@
+import { IoArrowForwardOutline } from "react-icons/io5";
+
 export default function MainSection() {
   return (
     <div className="text-white text-center ">
@@ -14,10 +16,11 @@ export default function MainSection() {
         </p>
       </div>
       <div className="flex justify-center mt-8">
-        <button className="mt-8 w-[456.45px] h-[70.91px] text-2xl  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-[51.7px] opacity-100 flex items-center justify-center">
+        <button className="mt-8 w-[456.45px] h-[70.91px] text-2xl  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-[51.7px] opacity-100 flex justify-between px-6 items-center">
           <span className="text-[rgba(70,186,60,1)]">
             Start Your Complete AI Journey
           </span>
+          <IoArrowForwardOutline  className="text-[rgba(70,186,60,1)]" />
         </button>
       </div>
     </div>
