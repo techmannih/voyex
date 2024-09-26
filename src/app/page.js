@@ -4,6 +4,7 @@ import MainSection from "./component/MainSection/MainSection";
 import Navbar from "./component/Navbar/Navbar";
 import Research from "./component/Research/Research";
 import Sponsor from "./component/SponsorSection/Sponsor";
+import Subscribe from "./component/Subscribe/Subscribe";
 import Template from "./component/Template/Template";
 // import Pricing from "./component/Pricing/Pricing";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Template />
       <BlogPost />
       <Faq />
+      <Subscribe />
     </div>
   );
 }
