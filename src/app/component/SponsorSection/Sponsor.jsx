@@ -9,6 +9,7 @@ export default function Sponsor() {
 
   return (
     <div className="overflow-hidden mt-16 relative">
+       <p className="text-white flex justify-center">Trusted by Industry leaders</p>
       <div className="flex sponsor-carousel animate-scroll whitespace-nowrap">
         {duplicatedSponsors.map((sponsor) => (
           <div
