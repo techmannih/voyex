@@ -16,10 +16,11 @@ export default function Home() {
       <Navbar />
       <MainSection />
       {/* <Pricing /> */}
-      <Sponsor />
+      
       <Research />
       <Template />
       <Funding />
+      <Sponsor />
       <BlogPost />
       <Faq />
       <Subscribe />
