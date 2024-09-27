@@ -1,6 +1,5 @@
 import researchData from "./data";
 import Image from "next/image";
-import chatbot from "../../../../assets/ChatBot.png"; // Ensure the import path is correct
 
 export default function Research() {
   return (

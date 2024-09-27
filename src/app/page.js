@@ -1,5 +1,6 @@
 import BlogPost from "./component/BlogPost/Blog";
 import Faq from "./component/FAQ/Faq";
+import Footer from "./component/Footer/Footer";
 import MainSection from "./component/MainSection/MainSection";
 import Navbar from "./component/Navbar/Navbar";
 import Research from "./component/Research/Research";
@@ -20,6 +21,7 @@ export default function Home() {
       <BlogPost />
       <Faq />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
