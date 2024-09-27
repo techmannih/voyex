@@ -1,6 +1,7 @@
 import BlogPost from "./component/BlogPost/Blog";
 import Faq from "./component/FAQ/Faq";
 import Footer from "./component/Footer/Footer";
+import Funding from "./component/Funding/Funding";
 import MainSection from "./component/MainSection/MainSection";
 import Navbar from "./component/Navbar/Navbar";
 import Research from "./component/Research/Research";
@@ -18,6 +19,7 @@ export default function Home() {
       <Sponsor />
       <Research />
       <Template />
+      <Funding />
       <BlogPost />
       <Faq />
       <Subscribe />

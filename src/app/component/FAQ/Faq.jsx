@@ -11,9 +11,9 @@ export default function Faq() {
   };
 
   return (
-    <div className="text-white flex justify-center p-6 m-16">
+    <div className="text-white flex justify-between m-16">
       <div className="mb-6 w-[696px]">
-        <p className="text-[rgba(70,186,60,1)] p-2">FAQs</p>
+        <p className="text-[rgba(70,186,60,1)] ">FAQs</p>
         <h1 className="font-bold text-[96px] leading-[122.88px] tracking-[0.02em]">
           What Explorers are Asking
         </h1>

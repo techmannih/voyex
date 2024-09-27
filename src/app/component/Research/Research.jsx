@@ -8,7 +8,7 @@ export default function Research() {
         <div key={item.id} className="flex w-full my-20">
           {item.id % 2 === 1 ? (
             <>
-              <div className="flex-1 p-4">
+              <div className="flex-1">
                 <p className="text-[rgba(70,186,60,1)]">{item.template}</p>
                 <h1 className="font-fk-grotesk text-[64px] font-bold mb-2 text-left ">
                   {item.title}

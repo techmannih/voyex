@@ -27,7 +27,7 @@ export default function Template() {
         {templateData.map((template) => (
           <div
             key={template.id}
-            className="w-[331.67px] p-[24px] border rounded-2xl border-[rgba(49, 49, 49, 1)]"
+            className="w-[331.67px] p-[24px] border rounded-2xl border-gray-700"
           >
             <div className="relative">
               <div className="flex items-center mb-2 justify-between">
