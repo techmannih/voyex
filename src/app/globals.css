@@ -2,9 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'FK Grotesk Neue'; /* Give your font a name */
+  src: url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Black-BF6576818b4c472.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Bold-BF6576818bd3700.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Light-BF6576818c0f3e8.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Medium-BF6576818c3a00a.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Regular-BF6576818c3af74.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-ThinItalic-BF6576818c5cbd8.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Thin-BF6576818c2a14c.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-BlackItalic-BF6576818becb0d.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-BoldItalic-BF6576818c39d11.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-LightItalic-BF6576818c3183c.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-MediumItalic-BF6576818c2aaf8.otf') format('opentype'),
+       url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Italic-BF6576818c041e2.otf') format('opentype');
+  font-weight: normal; /* Change as necessary */
+  font-style: normal; /* Change as necessary */
+}
+
 body {
-  @apply bg-black;
-  background: rgba(1, 1, 1, 1); 
+  font-family: 'FK Grotesk Neue', sans-serif; /* Use your font */
+  @apply bg-black; /* Using Tailwind CSS */
+  background: rgba(1, 1, 1, 1);
 }
 /* sliderStyles.css */
 .slick-prev, .slick-next {
