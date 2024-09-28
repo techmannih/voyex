@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black;
+  background: rgba(1, 1, 1, 1); 
+}
+/* sliderStyles.css */
+.slick-prev, .slick-next {
+  background-color: rgba(70, 186, 60, 1) !important;
+  border-radius: 50%;
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1; /* Ensure arrows are above other elements */
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black !important; /* Change arrow color */
+}
+
+.arrow-button {
+  background-color: rgba(70, 186, 60, 1);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+  border: none; /* Remove default button border */
+}
+.sponsor-carousel {
+  animation: scroll 15s linear infinite; /* Adjust timing for speed */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust as necessary for the total width */
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden; /* Hide overflow to maintain carousel effect */
+}
