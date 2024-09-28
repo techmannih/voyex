@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="bg-black text-white p-8">
-      <div className="container mx-auto flex justify-between items-center">
+    <div className="bg-black text-white mx-16 my-10">
+      <div className=" flex justify-between items-center">
         <div className="text-2xl font-bold">Voyex.</div>
         <ul className="flex space-x-8 items-center pl-24">
           <li>
@@ -46,6 +46,6 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-    </nav>
+    </div>
   );
 }

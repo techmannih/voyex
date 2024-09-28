@@ -15,10 +15,8 @@ export default function MainSection() {
         </p>
       </div>
       <div className="flex justify-center mt-8 gap-6">
-        <button className="mt-8 w-[208.45px] h-[38.91px] text-md  border-[1.48px] border-solid bg-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">
-          <span className="text-black ">
-            Start Your AI Journey
-          </span>
+        <button className="mt-8 w-[208.45px] h-[38.91px] text-md bg-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">
+          <span className="text-black ">Start Your AI Journey</span>
           {/* <IoArrowForwardOutline  className="text-[rgba(70,186,60,1)]" /> */}
         </button>
         <button className="mt-8 w-[208.45px] h-[38.91px] text-md  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">

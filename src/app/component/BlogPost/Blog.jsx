@@ -76,7 +76,7 @@ export default function BlogPost() {
                   <h1 className="text-lg font-bold">{post.title}</h1>
                   <p className="mt-2">{post.content}</p>
                   <p className="text-gray-400 text-sm mt-2">{post.date}</p>
-                  <div className="flex text-center justify-between items-center mt-4">
+                  <div className="flex text-center justify-between items-center mt-auto">
                     {" "}
                     <button className=" bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-1 px-4 rounded-full w-full">
                       Read Blog
