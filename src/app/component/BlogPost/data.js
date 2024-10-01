@@ -3,7 +3,8 @@ import Image from "../../../../assets/blog.png";
 const blogPostData = [
     {
       id: 1,
-      title: "DAOs and Their Impact",
+      title:"DAOs and its be...",      
+      // title: "DAOs and Their Impact",
       content: "## What are DAOs? A DAO is a collectively-owned, blockchain-governed organization working towards a common goal...",
       date: "July 31, 2023",
       image: Image,
@@ -11,7 +12,8 @@ const blogPostData = [
     },
     {
       id: 2,
-      title: "Understanding Blockchain Technology",
+      title:"DAOs and its be...",      
+      // title: "Understanding Blockchain Technology",
       content: "## Blockchain Basics. Blockchain is a decentralized ledger technology that enables secure transactions...",
       date: "August 1, 2023",
       image: Image,
@@ -19,7 +21,8 @@ const blogPostData = [
     },
     {
       id: 3,
-      title: "The Future of AI in Business",
+      title:"DAOs and its be...",      
+      // title: "The Future of AI in Business",
       content: "## AI Applications. Artificial Intelligence is revolutionizing industries by improving efficiency and innovation...",
       date: "August 2, 2023",
       image: Image,
@@ -27,7 +30,8 @@ const blogPostData = [
     },
     {
       id: 4,
-      title: "How Startups Are Changing the Economy",
+      title:"DAOs and its be...",      
+      // title: "How Startups Are Changing the Economy",
       content: "## The Rise of Startups. Startups are driving innovation and creating jobs in various sectors...",
       date: "August 3, 2023",
       image: Image,
@@ -35,7 +39,8 @@ const blogPostData = [
     },
     {
       id: 5,
-      title: "Emerging Trends in FinTech",
+      title:"DAOs and its be...",      
+      // title: "Emerging Trends in FinTech",
       content: "## FinTech Innovations. Financial Technology is transforming how we manage money and banking...",
       date: "August 4, 2023",
       image: Image,
@@ -43,7 +48,8 @@ const blogPostData = [
     },
     {
       id: 6,
-      title: "Large Language Models Explained",
+      title:"DAOs and its be...",      
+      // title: "Large Language Models Explained",
       content: "## Understanding LLMs. Large Language Models are advanced AI systems that can understand and generate human-like text...",
       date: "August 5, 2023",
       image: Image,
@@ -51,7 +57,8 @@ const blogPostData = [
     },
     {
       id: 7,
-      title: "New Features in Web Development",
+      title:"DAOs and its be...",      
+      // title: "New Features in Web Development",
       content: "## What's New? The web development landscape is continuously evolving with new frameworks and tools...",
       date: "August 6, 2023",
       image: Image,
@@ -59,7 +66,8 @@ const blogPostData = [
     },
     {
       id: 8,
-      title: "The Importance of Cybersecurity",
+      title:"DAOs and its be...",      
+      // title: "The Importance of Cybersecurity",
       content: "## Protecting Your Data. As technology advances, so do the threats to our digital security...",
       date: "August 7, 2023",
       image: Image,
@@ -67,7 +75,8 @@ const blogPostData = [
     },
     {
       id: 9,
-      title: "Digital Marketing Strategies",
+      title:"DAOs and its be...",      
+      // title: "Digital Marketing Strategies",
       content: "## Marketing in the Digital Age. Explore effective strategies for engaging customers online...",
       date: "August 8, 2023",
       image: Image,
@@ -75,7 +84,8 @@ const blogPostData = [
     },
     {
       id: 10,
-      title: "Sustainable Practices in Tech",
+      title:"DAOs and its be...",      
+      // title: "Sustainable Practices in Tech",
       content: "## Going Green. Learn how technology companies are adopting sustainable practices...",
       date: "August 9, 2023",
       image: Image,
@@ -83,7 +93,8 @@ const blogPostData = [
     },
     {
       id: 11,
-      title: "Exploring Quantum Computing",
+      title:"DAOs and its be...",      
+      // title: "Exploring Quantum Computing",
       content: "## What is Quantum Computing? Delve into the principles of quantum mechanics that power this new frontier...",
       date: "August 10, 2023",
       image: Image,
@@ -91,7 +102,8 @@ const blogPostData = [
     },
     {
       id: 12,
-      title: "The Evolution of Social Media",
+      title:"DAOs and its be...",      
+      // title: "The Evolution of Social Media",
       content: "## From Facebook to TikTok. Explore how social media platforms have transformed our interactions...",
       date: "August 11, 2023",
       image: Image,
@@ -99,7 +111,8 @@ const blogPostData = [
     },
     {
       id: 13,
-      title: "Virtual Reality in Education",
+      title:"DAOs and its be...",      
+      // title: "Virtual Reality in Education",
       content: "## Immersive Learning. How VR is changing the way we approach education and training...",
       date: "August 12, 2023",
       image: Image,
@@ -107,7 +120,8 @@ const blogPostData = [
     },
     {
       id: 14,
-      title: "AI in Healthcare",
+      title:"DAOs and its be...",      
+      // title: "AI in Healthcare",
       content: "## Transforming Patient Care. Discover how AI is enhancing diagnosis and treatment in healthcare...",
       date: "August 13, 2023",
       image: Image,
@@ -115,7 +129,8 @@ const blogPostData = [
     },
     {
       id: 15,
-      title: "Mobile App Development Trends",
+      title:"DAOs and its be...",      
+      // title: "Mobile App Development Trends",
       content: "## What's Next? Stay ahead of the curve with the latest trends in mobile app development...",
       date: "August 14, 2023",
       image: Image,
@@ -123,7 +138,8 @@ const blogPostData = [
     },
     {
       id: 16,
-      title: "The Role of Big Data",
+      title:"DAOs and its be...",      
+      // title: "The Role of Big Data",
       content: "## Insights and Analysis. Understanding how big data is shaping decision-making in businesses...",
       date: "August 15, 2023",
       image: Image,
@@ -131,7 +147,8 @@ const blogPostData = [
     },
     {
       id: 17,
-      title: "Cryptocurrency Market Overview",
+      title:"DAOs and its be...",      
+      // title: "Cryptocurrency Market Overview",
       content: "## Navigating the Crypto Space. An overview of the current trends and future of cryptocurrencies...",
       date: "August 16, 2023",
       image: Image,
@@ -139,7 +156,8 @@ const blogPostData = [
     },
     {
       id: 18,
-      title: "The Impact of 5G Technology",
+      title:"DAOs and its be...",      
+      // title: "The Impact of 5G Technology",
       content: "## Faster Connections. Explore how 5G is revolutionizing communication and connectivity...",
       date: "August 17, 2023",
       image: Image,
@@ -147,7 +165,8 @@ const blogPostData = [
     },
     {
       id: 19,
-      title: "The Future of Remote Work",
+      title:"DAOs and its be...",      
+      // title: "The Future of Remote Work",
       content: "## Work from Anywhere. Insights into the evolving landscape of remote work and digital nomadism...",
       date: "August 18, 2023",
       image: Image,
@@ -155,7 +174,8 @@ const blogPostData = [
     },
     {
       id: 20,
-      title: "AI Ethics and Responsibility",
+      title:"DAOs and its be...",      
+      // title: "AI Ethics and Responsibility",
       content: "## Navigating Ethical Dilemmas. Discussing the importance of ethical considerations in AI development...",
       date: "August 19, 2023",
       image: Image,

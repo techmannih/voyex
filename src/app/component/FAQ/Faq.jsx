@@ -14,8 +14,8 @@ export default function Faq() {
     <div className="text-white flex justify-between m-16">
       <div className="mb-6 w-[696px]">
         <p className="text-[rgba(70,186,60,1)] ">FAQs</p>
-        <h1 className="font-bold text-[96px] leading-[122.88px] tracking-[0.02em]">
-          What Explorers are Asking
+        <h1 className="font-fk-grotesk text-[96px] font-bold leading-[122.88px] tracking-[0.02em] text-left w-[696px] h-[369px]">
+        What Explorers are Asking
         </h1>
       </div>
       <div className="space-y-4 mt-4 w-[600px]">
