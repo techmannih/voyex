@@ -11,7 +11,7 @@ export default function Subscribe() {
             placeholder="Enter your email"
             className="flex-grow p-2 px-3 rounded-full bg-gray-900 text-gray-800"
           />
-          <button className=" py-2 px-4 rounded-full font-bold bg-[rgba(70,186,60,1)] text-black ">
+          <button className=" py-2 px-7 rounded-full font-bold bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black custom-border ">
             Subscribe
           </button>
         </div>

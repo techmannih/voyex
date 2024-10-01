@@ -96,3 +96,13 @@ body {
 .overflow-hidden {
   overflow: hidden; /* Hide overflow to maintain carousel effect */
 }
+.custom-border {
+  border: transparent;
+  border-image-source: linear-gradient(90deg, #46BA3C 0%, #84DE7C 100%);
+  border-image-slice: 1;
+  box-shadow: 
+    0 0 8px #84DE7C,
+    0 0 12px #46BA3C,
+    0 0 16px #46BA3C,
+    0 0 10px 
+}

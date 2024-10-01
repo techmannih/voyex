@@ -18,7 +18,7 @@
           <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-[0.02em] mb-4">
             Get Started with our Templates options
           </h1>
-          <button className="mt-4 bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-2 px-6 rounded-full text-[14px] font-medium leading-[17.92px]">
+          <button className="mt-4 bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-2 px-6 rounded-full text-[14px] font-medium leading-[17.92px] custom-border">
             See All Templates
           </button>
         </div>

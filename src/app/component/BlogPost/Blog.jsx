@@ -51,7 +51,9 @@ export default function BlogPost() {
             <div
               className="flex transition-transform duration-500"
               style={{
-                transform: `translateX(-${currentIndex * (100 / postsToShow)}%)`,
+                transform: `translateX(-${
+                  currentIndex * (100 / postsToShow)
+                }%)`,
                 width: `${(totalPosts * 100) / postsToShow}%`,
               }}
             >
@@ -59,6 +61,10 @@ export default function BlogPost() {
                 <div
                   key={post.id}
                   className="w-[397.33px] h-auto p-[24px] gap-[17px] border border-gray-700 rounded-[25px] flex flex-col m-2"
+                  style={{
+                    background:
+                      "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",
+                  }}
                 >
                   <div className="relative mb-2">
                     <Image
@@ -81,15 +87,16 @@ export default function BlogPost() {
                     ))}
                   </div>
                   <h1 className="text-[30px] font-bold leading-[36px] text-left">
-                  {truncateDescription(post.title, 4)}
+                    {truncateDescription(post.title, 4)}
                   </h1>
 
                   <p className="mt-2">
-                    {truncateDescription(post.content, 10)} {/* Truncated content */}
+                    {truncateDescription(post.content, 10)}{" "}
+                    {/* Truncated content */}
                   </p>
                   <p className="text-gray-400 text-sm mt-2">{post.date}</p>
                   <div className="flex text-center justify-between items-center mt-auto">
-                    <button className="bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-1 px-4 rounded-full w-full">
+                    <button className="bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-1 px-4 rounded-full w-full custom-border">
                       Read Blog
                     </button>
                     <CiBookmark className="text-3xl font-bold" />

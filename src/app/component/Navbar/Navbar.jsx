@@ -52,14 +52,12 @@ export default function Navbar() {
             Sign Up
           </button>
 
-          <button
-            className="text-black py-2 px-8 text-[14px] font-medium leading-[17.92px] rounded-full"
-            style={{
-              background: "linear-gradient(90deg, #84DE7C 0%, #2DE21D 98%)",
-            }}
-          >
-            Log in
-          </button>
+          <button 
+  className="text-black py-2 px-8 text-[14px] font-medium leading-[17.92px] rounded-full bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] custom-border"
+>
+  Log in
+</button>
+
         </div>
       </div>
     </div>
