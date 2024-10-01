@@ -7,44 +7,49 @@ export default function Research() {
       {researchData.map((item) => (
         <div key={item.id} className="flex w-full my-20">
           {item.id % 2 === 1 ? (
-            <>
-              <div className="flex-1">
+            <div className="flex w-[1330px] h-[390px] gap-[57px]  relative">
+              <div className="w-[603px] h-[390px] flex flex-col">
                 <p className="text-[rgba(70,186,60,1)]">{item.template}</p>
-                <h1 className="font-fk-grotesk text-[64px] font-bold mb-2 text-left ">
+                <h1 className="text-[64px] font-bold leading-[81.92px] tracking-[0.02em] mb-2 text-left">
                   {item.title}
                 </h1>
+                <p className="mt-4 font-fk-grotesk text-[16px] font-normal leading-[20.48px] tracking-[0.02em] text-left">
+                  {item.content}
+                </p>
+              </div>
 
-                <p>{item.content}</p>
-              </div>
-              <div className="flex-1 relative w-full h-[400px]">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  layout="fill"
-                  objectFit="cover"
-                  className="w-full h-full" // Ensure it fills the container
-                />
-              </div>
-            </>
+              <Image
+                src={item.image}
+                alt={item.title}
+                layout="fixed" // Use fixed layout to control size
+                width={670} // Set the width
+                height={379} // Set the height
+                objectFit="cover"
+                className="rounded-[24px]" // Apply border radius
+              />
+            </div>
           ) : (
-            <>
-              <div className="flex-1 relative w-full h-[400px]">
-                <Image
-                  src={item.image}
-                  alt={item.title}
-                  layout="fill"
-                  objectFit="cover"
-                  className="w-full h-full" // Ensure it fills the container
-                />
-              </div>
-              <div className="flex-1 p-4">
+            <div className="flex w-[1330px] h-[390px] gap-[57px] relative">
+              <Image
+                src={item.image}
+                alt={item.title}
+                layout="fixed" // Use fixed layout to control size
+                width={670} // Set the width
+                height={379} // Set the height
+                objectFit="cover"
+                className="rounded-[24px]" // Apply border radius
+              />
+
+              <div className="flex-1 w-[603px] h-[390px] gap-[16px] flex flex-col">
                 <p className="text-[rgba(70,186,60,1)]">{item.template}</p>
-                <h1 className="font-fk-grotesk text-[64px] font-bold mb-2 text-left ">
+                <h1 className="text-[64px] font-bold leading-[81.92px] tracking-[0.02em] mb-2 text-left">
                   {item.title}
                 </h1>
-                <p>{item.content}</p>
+                <p className="mt-4 font-fk-grotesk text-[16px] font-normal leading-[20.48px] tracking-[0.02em] text-left">
+                  {item.content}
+                </p>
               </div>
-            </>
+            </div>
           )}
         </div>
       ))}

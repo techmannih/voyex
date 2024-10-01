@@ -1,13 +1,22 @@
-"use client";
+"use client"; // Use client-side rendering
+
 import React, { useState } from "react";
-import blogPostData from "./data";
+import blogPostData from "./data"; // Adjust the import path as necessary
 import Image from "next/image";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { CiBookmark } from "react-icons/ci";
 
+// Utility function to truncate description
+const truncateDescription = (description, wordLimit) => {
+  const words = description.split(" ");
+  if (words.length > wordLimit) {
+    return words.slice(0, wordLimit).join(" ") + " ...";
+  }
+  return description;
+};
+
 export default function BlogPost() {
   const [currentIndex, setCurrentIndex] = useState(0);
-
   const postsToShow = 3; // Number of posts to show at once
   const totalPosts = blogPostData.length;
 
@@ -32,7 +41,7 @@ export default function BlogPost() {
         </h1>
       </div>
 
-      <div className="relative max-w-7xl mx-auto h-auto  ">
+      <div className="relative max-w-7xl mx-auto h-auto">
         <div className="flex justify-between items-center">
           <button onClick={prevSlide} className="arrow-button">
             <FaArrowLeft color="black" />
@@ -45,21 +54,25 @@ export default function BlogPost() {
                 transform: `translateX(-${
                   currentIndex * (100 / postsToShow)
                 }%)`,
-                width: `${(totalPosts * 100) / postsToShow}%`, // Adjust width based on total posts
+                width: `${(totalPosts * 100) / postsToShow}%`,
               }}
             >
               {blogPostData.map((post) => (
                 <div
                   key={post.id}
-                  className="w-[400px] p-4 border h-auto border-solid border-gray-700 rounded-[20px] flex flex-col m-2" // Set width explicitly to 300px
+                  className="w-[397.33px] h-auto p-[24px] gap-[17px] border border-gray-700 rounded-[25px] flex flex-col m-2"
+                  style={{
+                    background:
+                      "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",
+                  }}
                 >
                   <div className="relative mb-2">
                     <Image
                       src={post.image}
                       alt={post.title}
                       layout="responsive"
-                      width={300} // Set image width
-                      height={180} // Set image height
+                      width={300}
+                      height={180}
                       className="rounded-[20px]"
                     />
                   </div>
@@ -67,18 +80,23 @@ export default function BlogPost() {
                     {post.tags.map((tag, index) => (
                       <span
                         key={index}
-                        className="border border-gray-700 text-white  rounded-xl text-xs p-3 "
+                        className="border border-gray-700 text-white rounded-xl text-xs p-3"
                       >
                         {tag}
                       </span>
                     ))}
                   </div>
-                  <h1 className="text-lg font-bold">{post.title}</h1>
-                  <p className="mt-2">{post.content}</p>
+                  <h1 className="text-[30px] font-bold leading-[36px] text-left">
+                    {truncateDescription(post.title, 4)}
+                  </h1>
+
+                  <p className="mt-2">
+                    {truncateDescription(post.content, 10)}{" "}
+                    {/* Truncated content */}
+                  </p>
                   <p className="text-gray-400 text-sm mt-2">{post.date}</p>
                   <div className="flex text-center justify-between items-center mt-auto">
-                    {" "}
-                    <button className=" bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-1 px-4 rounded-full w-full">
+                    <button className="bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-1 px-4 rounded-full w-full custom-border">
                       Read Blog
                     </button>
                     <CiBookmark className="text-3xl font-bold" />
