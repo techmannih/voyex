@@ -1,3 +1,4 @@
+
 import templateData from "./data";
 import Image from "next/image";
 import { CiStar } from "react-icons/ci";
@@ -27,7 +28,10 @@ export default function Template() {
         {templateData.map((template) => (
           <div
             key={template.id}
-            className="w-[331.67px] p-[24px] border rounded-2xl border-gray-700"
+            className="w-[331.67px] p-[24px] border rounded-2xl border-gray-700 text-white"
+            style={{
+              background: "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",
+            }}
           >
             <div className="relative">
               <div className="flex items-center mb-2 justify-between">
