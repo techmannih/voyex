@@ -12,7 +12,7 @@ export default function Navbar() {
           <li>
             <Link
               href="#pricing"
-              className="font-medium text-[14px] leading-[17.92px] text-left"
+              className="font-normal text-[14px] leading-[17.92px] text-left"
             >
               Pricing
             </Link>
@@ -20,7 +20,7 @@ export default function Navbar() {
           <li>
             <Link
               href="#resources"
-              className="font-medium text-[14px] leading-[17.92px] text-left"
+              className="font-normal text-[14px] leading-[17.92px] text-left"
             >
               Resources
             </Link>
@@ -28,7 +28,7 @@ export default function Navbar() {
           <li>
             <Link
               href="#about"
-              className="font-medium text-[14px] leading-[17.92px] text-left"
+              className="font-normal text-[14px] leading-[17.92px] text-left"
             >
               About us
             </Link>
@@ -36,7 +36,7 @@ export default function Navbar() {
           <li>
             <Link
               href="blog"
-              className="font-medium text-[14px] leading-[17.92px] text-left"
+              className="font-normal text-[14px] leading-[17.92px] text-left"
             >
               Blog
             </Link>
@@ -44,7 +44,7 @@ export default function Navbar() {
         </ul>
         <div className="">
           <button
-            className="py-2 px-4 rounded-full text-[14px] font-medium leading-[17.92px]"
+            className="py-2 px-4 rounded-full text-[14px] font-normal leading-[17.92px]"
             style={{
               color: "rgba(114, 249, 103, 1)", // Set text color here
             }}

@@ -49,7 +49,7 @@ export default function BlogPost() {
 
           <div className="w-full overflow-hidden">
             <div
-              className="flex transition-transform duration-500"
+              className="flex transition-transform duration-500 gap-[8.5px]"
               style={{
                 transform: `translateX(-${
                   currentIndex * (100 / postsToShow)

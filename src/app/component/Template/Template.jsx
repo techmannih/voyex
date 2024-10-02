@@ -55,7 +55,7 @@
               </h1>
 
               <p
-                className="mt-2 text-sm font-normal leading-[17.92px] text-left"
+                className="mt-2 text-sm font-light leading-[17.92px] text-left"
                 style={{ fontSize: "14px", color: "rgba(244, 244, 244, 1)" }}
               >
                 {truncateDescription(template.description, 8)}
@@ -65,7 +65,7 @@
                 {template.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="border border-gray-700 text-white py-1 px-2 rounded-full text-xs"
+                    className="border border-gray-700 text-white py-1 px-2 rounded-full text-xs font-light"
                   >
                     {tag}
                   </span>

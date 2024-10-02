@@ -2,13 +2,13 @@
 
 export default function MainSection() {
   return (
-    <div className="text-white text-center ">
+    <div className="text-white text-center">
       <div className="bg-[rgba(114,249,103,1)] h-[50px] flex items-center justify-center"></div>
-      <h1 className="text-[64px] font-bold leading-[81.92px] tracking-[0.02em] text-center w-[833px] mx-auto mt-10">
+      <h1 className="text-[64px] font-bold leading-[81.92px] tracking-[0.02em] text-center w-[833px] mx-auto mt-24">
         Voyex Lorem Ipsum Yorem ipsum dolor sit a
       </h1>
       <div className="flex justify-center">
-        <p className="mt-4 text-center opacity-88 font-normal text-[28.49px] leading-[36.46px] tracking-[0.02em] w-[1155px]">
+        <p className="mt-2 text-center opacity-88 font-light text-[28.49px] leading-[36.46px] tracking-[0.02em] w-[1155px] text-[rgba(255, 255, 255, 1)]">
           Yorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
           turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec
           fringilla accumsan, risus sem.
