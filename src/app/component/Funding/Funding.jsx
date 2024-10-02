@@ -8,7 +8,7 @@ export default function Funding() {
       }}
     >
       <div className="text-start mb-10 w-[627px]">
-        <p className="text-[16.76px] font-medium leading-[21.46px] tracking-[0.93px] text-left text-white">
+        <p className="text-[16.76px] font-normal leading-[21.46px] tracking-[0.93px] text-left text-white uppercase">
           Sponsors and Partnerships
         </p>
 
@@ -16,10 +16,7 @@ export default function Funding() {
           An Ecosystem of AI Partnerships Unlocking Boundless Innovation
         </h1>
 
-        <p
-          className="mt-4 text-gray-400 text-[18.63px] font-normal leading-[23.84px] text-left"
-          
-        >
+        <p className="mt-4 text-gray-400 text-[18.63px] font-light leading-[23.84px] text-left">
           A growing number of DApps are collaborating with Layerdapp to create a
           multi-chain DeFi ecosystem.
         </p>
@@ -35,12 +32,23 @@ export default function Funding() {
               boxShadow: "0px 1.86px 15.83px 0px rgba(22, 22, 22, 0.1)",
             }}
           >
-            <h2 className="font-semibold text-lg mb-2">Partners</h2>
-            <ul className="list-disc list-inside">
-              <li>Ethereum</li>
-              <li>Binance</li>
-              <li>Matic</li>
-              <li>Polygon</li>
+            <h2 className="font-normal text-[14.9px] leading-[19.07px] tracking-[0.93125px] mb-2 uppercase text-left">
+              Partners
+            </h2>
+
+            <ul className="list-disc list-inside font-light">
+              <li className="text-[14.9px] font-light leading-[19.07px] tracking-[0.93125px] text-left mb-[9.31px] last:mb-0">
+                Ethereum
+              </li>
+              <li className="text-[14.9px] font-light leading-[19.07px] tracking-[0.93125px] text-left mb-[9.31px] last:mb-0">
+                Binance
+              </li>
+              <li className="text-[14.9px] font-light leading-[19.07px] tracking-[0.93125px] text-left mb-[9.31px] last:mb-0">
+                Matic
+              </li>
+              <li className="text-[14.9px] font-light leading-[19.07px] tracking-[0.93125px] text-left">
+                Polygon
+              </li>
             </ul>
           </div>
 
@@ -52,12 +60,22 @@ export default function Funding() {
               boxShadow: "0px 1.86px 15.83px 0px rgba(22, 22, 22, 0.1)",
             }}
           >
-            <h2 className="font-semibold text-lg mb-2">Backed By</h2>
-            <ul className="list-disc list-inside">
-              <li>Uniswap</li>
-              <li>Compound</li>
-              <li>AAVE</li>
-              <li>Lido</li>
+            <h2 className="font-normal text-[14.9px] leading-[19.07px] tracking-[0.93125px] mb-2 uppercase text-left">
+              Backed By
+            </h2>
+            <ul className="list-disc list-inside font-light">
+              <li className="text-[14.9px] font-light leading-[19.07px] tracking-[0.93125px] text-left mb-[9.31px] last:mb-0">
+                Uniswap
+              </li>
+              <li className="text-[14.9px] font-light leading-[19.07px] tracking-[0.93125px] text-left mb-[9.31px] last:mb-0">
+                Compound
+              </li>
+              <li className="text-[14.9px] font-light leading-[19.07px] tracking-[0.93125px] text-left mb-[9.31px] last:mb-0">
+                AAVE
+              </li>
+              <li className="text-[14.9px] font-light leading-[19.07px] tracking-[0.93125px] text-left">
+                Lido
+              </li>
             </ul>
           </div>
         </div>
@@ -70,11 +88,19 @@ export default function Funding() {
             boxShadow: "0px 1.86px 15.83px 0px rgba(22, 22, 22, 0.1)",
           }}
         >
-          <h2 className="font-semibold text-lg mb-2">Investors</h2>
-          <ul className="list-disc list-inside">
-            <li>Uniswap</li>
-            <li>Compound</li>
-            <li>AAVE</li>
+          <h2 className="font-normal text-[14.9px] leading-[19.07px] tracking-[0.93125px] mb-2 uppercase text-left">
+            Investors
+          </h2>
+          <ul className="list-disc list-inside font-light">
+            <li className="text-[14.9px] font-extra-light leading-[19.07px] tracking-[0.93125px] text-left mb-[9.31px] last:mb-0">
+              Uniswap
+            </li>
+            <li className="text-[14.9px] font-extra-light leading-[19.07px] tracking-[0.93125px] text-left mb-[9.31px] last:mb-0">
+              Compound
+            </li>
+            <li className="text-[14.9px] font-extra-light leading-[19.07px] tracking-[0.93125px] text-left">
+              AAVE
+            </li>
           </ul>
         </div>
       </div>

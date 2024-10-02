@@ -13,7 +13,7 @@ export default function Research() {
                 <h1 className="text-[64px] font-bold leading-[81.92px] tracking-[0.02em] mb-2 text-left">
                   {item.title}
                 </h1>
-                <p className="mt-4 font-fk-grotesk text-[16px] font-normal leading-[20.48px] tracking-[0.02em] text-left">
+                <p className="mt-4 font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-[0.02em] text-left">
                   {item.content}
                 </p>
               </div>
@@ -45,7 +45,7 @@ export default function Research() {
                 <h1 className="text-[64px] font-bold leading-[81.92px] tracking-[0.02em] mb-2 text-left">
                   {item.title}
                 </h1>
-                <p className="mt-4 font-fk-grotesk text-[16px] font-normal leading-[20.48px] tracking-[0.02em] text-left">
+                <p className="mt-4 font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-[0.02em] text-left text-[rgba(255, 255, 255, 1)]">
                   {item.content}
                 </p>
               </div>
