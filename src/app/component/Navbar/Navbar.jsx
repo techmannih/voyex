@@ -2,16 +2,19 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="bg-black text-white mx-16 my-10">
+    <div className="bg-black text-white max-w-7xl w-full mx-auto p-10">
       <div className=" flex justify-between items-center">
-        <div className="text-[24px] font-bold leading-[30.72px] tracking-[0.02em] text-left">
+        <Link
+          href="/"
+          className="text-[24px] font-bold leading-[30.72px] tracking-[0.02em] text-left"
+        >
           Voyex.
-        </div>
+        </Link>
 
         <ul className="flex space-x-8 items-center pl-24">
           <li>
             <Link
-              href="#pricing"
+              href="/pricing"
               className="font-normal text-[14px] leading-[17.92px] text-left"
             >
               Pricing
@@ -19,7 +22,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#resources"
+              href="/resources"
               className="font-normal text-[14px] leading-[17.92px] text-left"
             >
               Resources
@@ -27,7 +30,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="#about"
+              href="/about"
               className="font-normal text-[14px] leading-[17.92px] text-left"
             >
               About us
@@ -35,7 +38,7 @@ export default function Navbar() {
           </li>
           <li>
             <Link
-              href="blog"
+              href="/blog"
               className="font-normal text-[14px] leading-[17.92px] text-left"
             >
               Blog
@@ -52,12 +55,9 @@ export default function Navbar() {
             Sign Up
           </button>
 
-          <button 
-  className="text-black py-2 px-8 text-[14px] font-medium leading-[17.92px] rounded-full bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] custom-border"
->
-  Log in
-</button>
-
+          <button className="text-black py-2 px-8 text-[14px] font-medium leading-[17.92px] rounded-full bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] custom-border">
+            Log in
+          </button>
         </div>
       </div>
     </div>
