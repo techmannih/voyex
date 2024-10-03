@@ -3,43 +3,49 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'FK Grotesk Neue';
-  src: url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Black-BF6576818b4c472.otf') format('opentype');
+  font-family: "FK Grotesk Neue";
+  src: url("/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Black-BF6576818b4c472.otf")
+    format("opentype");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FK Grotesk Neue';
-  src: url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Bold-BF6576818bd3700.otf') format('opentype');
+  font-family: "FK Grotesk Neue";
+  src: url("/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Bold-BF6576818bd3700.otf")
+    format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FK Grotesk Neue';
-  src: url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Medium-BF6576818c3a00a.otf') format('opentype');
+  font-family: "FK Grotesk Neue";
+  src: url("/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Medium-BF6576818c3a00a.otf")
+    format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FK Grotesk Neue';
-  src: url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Regular-BF6576818c3af74.otf') format('opentype');
+  font-family: "FK Grotesk Neue";
+  src: url("/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Regular-BF6576818c3af74.otf")
+    format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FK Grotesk Neue';
-  src: url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Light-BF6576818c0f3e8.otf') format('opentype');
+  font-family: "FK Grotesk Neue";
+  src: url("/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Light-BF6576818c0f3e8.otf")
+    format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'FK Grotesk Neue';
-  src: url('/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Italic-BF6576818c041e2.otf') format('opentype');
+  font-family: "FK Grotesk Neue";
+  src: url("/fk-grotesk-neue-font-family-1714695107-0[1]/FKGroteskNeueTrial-Italic-BF6576818c041e2.otf")
+    format("opentype");
   font-weight: 400;
   font-style: italic;
 }
@@ -47,14 +53,22 @@
 /* Define additional font styles as needed */
 
 body {
-  font-family: 'FK Grotesk Neue', sans-serif; /* Use your font */
-  @apply bg-black; /* Using Tailwind CSS */
-  background: rgba(1, 1, 1, 1);
-  background-image: url('../../assets/Background.png');
+  font-family: "FK Grotesk Neue", sans-serif; /* Use your font */
+  background-image: url("../../assets/Background.png");
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.slick-prev, .slick-next {
+::-webkit-scrollbar {
+  display: none;
+}
+/* ::-webkit-scrollbar-thumb {
+  display: none;
+} */
+
+.slick-p rev,
+.slick-next {
   background-color: rgba(70, 186, 60, 1) !important;
   border-radius: 50%;
   width: 40px; /* Adjust size as needed */
@@ -65,7 +79,8 @@ body {
   z-index: 1; /* Ensure arrows are above other elements */
 }
 
-.slick-prev:before, .slick-next:before {
+.slick-prev:before,
+.slick-next:before {
   color: black !important; /* Change arrow color */
 }
 
@@ -100,11 +115,7 @@ body {
 }
 .custom-border {
   border: transparent;
-  border-image-source: linear-gradient(90deg, #46BA3C 0%, #84DE7C 100%);
+  border-image-source: linear-gradient(90deg, #46ba3c 0%, #84de7c 100%);
   border-image-slice: 1;
-  box-shadow: 
-    0 0 8px #84DE7C,
-    0 0 12px #46BA3C,
-    0 0 16px #46BA3C,
-    0 0 10px 
+  box-shadow: 0 0 8px #84de7c, 0 0 12px #46ba3c, 0 0 16px #46ba3c, 0 0 10px;
 }

@@ -12,11 +12,11 @@ import Template from "./component/Template/Template";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="w-full">
       <Navbar />
       <MainSection />
       {/* <Pricing /> */}
-      
+
       <Research />
       <Template />
       <Funding />
