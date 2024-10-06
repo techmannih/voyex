@@ -18,7 +18,7 @@ export default function Funding() {
             <br /> Unlocking Boundless Innovation
           </h1>
 
-          <p className="mt-4 text-[#768190] text-lg font-light text-left">
+          <p className="mt-4 text-[#768190] text-lg font-normal text-left">
             A growing number of DApps are collaborating with Layerdapp to
             <br /> create a multi-chain DeFi ecosystem.
           </p>

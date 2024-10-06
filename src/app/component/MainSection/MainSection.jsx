@@ -1,5 +1,6 @@
 // import { IoArrowForwardOutline } from "react-icons/io5";
-
+import Image from "next/image";
+import VDO from "../../../../assets/Chat1.png";
 export default function MainSection() {
   return (
     <div className="text-white text-center">
@@ -15,17 +16,25 @@ export default function MainSection() {
         </p>
       </div>
       <div className="flex justify-center mt-8 gap-6">
-        <button className="mt-8 w-[208.45px] h-[38.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
-          <span className="text-black text-[14px] font-medium leading-[17.92px] "  >
+        <button className="mt-8 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
+          <span className="text-black text-[14px] font-normal leading-[17.92px] "  >
             Start Your AI Journey
           </span>
           {/* <IoArrowForwardOutline className="text-[rgba(70,186,60,1)]" /> */}
         </button>
 
-        <button className="mt-8 w-[208.45px] h-[38.91px] text-md  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">
+        <button className="mt-8 w-[208.45px] h-[38.91px] text-md font-normal  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">
           <span className="text-[rgba(70,186,60,1)] ">Upload Product</span>
           {/* <IoArrowForwardOutline  className="text-[rgba(70,186,60,1)]" /> */}
         </button>
+      </div>
+      <div className="relative mb-2 items-center flex justify-center my-24">
+        <Image
+          src={VDO}
+          alt="Video"
+          width={1100}
+          height={624}
+        />
       </div>
     </div>
   );
