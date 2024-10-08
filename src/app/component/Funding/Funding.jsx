@@ -1,6 +1,6 @@
 export default function Funding() {
   return (
-    <div className="flex justify-center px-10 mt-16 w-full mx-auto">
+    <div className="flex justify-center px-10 mt-48 w-full mx-auto">
       <div
         className="flex justify-between items-center gap-5 rounded-[33px] border border-gray-700 max-w-7xl w-full p-12"
         style={{
