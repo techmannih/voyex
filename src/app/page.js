@@ -9,6 +9,8 @@ import Sponsor from "./component/SponsorSection/Sponsor";
 import Subscribe from "./component/Subscribe/Subscribe";
 import Template from "./component/Template/Template";
 import Contact from "./component/Contact/contact";
+import Goal from "./component/Goal/goal";
+
 // import Pricing from "./component/Pricing/Pricing";
 
 export default function Home() {
@@ -19,6 +21,7 @@ export default function Home() {
       {/* <Pricing /> */}
 
       <Research />
+      <Goal />
       <Template />
       <Funding />
       <Sponsor />
