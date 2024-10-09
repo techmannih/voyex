@@ -15,7 +15,7 @@ export default function Navbar() {
           <li>
             <Link
               href="/pricing"
-              className="font-normal text-[14px] leading-[17.92px] text-left"
+              className="font-normal text-[14px] leading-[19.92px] text-left"
             >
               Pricing
             </Link>

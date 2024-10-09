@@ -12,7 +12,7 @@ const truncateDescription = (description, wordLimit) => {
 
 export default function Template() {
   return (
-    <div className="px-10 text-white">
+    <div className="px-10 text-white m-32">
       <div className="flex flex-col items-center justify-center text-center mb-8">
         <p className="text-[rgba(70,186,60,1)]">Use Templates</p>
         <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-[0.02em] mb-4">
@@ -27,13 +27,10 @@ export default function Template() {
         {templateData.map((template) => (
           <div
             key={template.id}
-            className="w-[333.17px] h-[228px] p-[24px] border border-gray-700 rounded-[25px] "
+            className="w-[333.17px] h-[228px] p-[24px] border border-gray-700 rounded-[25px] flex flex-col justify-between backdrop-blur-3xl"
             style={{
               background:
                 "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "space-between",
             }}
           >
             <div className="relative">
@@ -50,7 +47,7 @@ export default function Template() {
                 <CiStar />
               </div>
             </div>
-            <h1 className="text-[16px] font-bold leading-[20.48px]">
+            <h1 className="text-[16px] font-bold leading-[20.48px] items-center">
               {template.title}
             </h1>
 

@@ -33,7 +33,7 @@ export default function BlogPost() {
   };
 
   return (
-    <div className="px-10 text-white mt-20">
+    <div className="px-10 text-white mt-24">
       <div className="flex flex-col items-center justify-center text-center mb-8">
         <p className="text-[rgba(70,186,60,1)]">Blogpost</p>
         <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-[0.02em] mb-4">

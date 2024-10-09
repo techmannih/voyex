@@ -1,4 +1,4 @@
-import BlogPost from "./component/BlogPost/Blog";
+// import BlogPost from "./component/BlogPost/Blog";
 import Faq from "./component/FAQ/Faq";
 import Footer from "./component/Footer/Footer";
 import Funding from "./component/Funding/Funding";
@@ -8,6 +8,10 @@ import Research from "./component/Research/Research";
 import Sponsor from "./component/SponsorSection/Sponsor";
 import Subscribe from "./component/Subscribe/Subscribe";
 import Template from "./component/Template/Template";
+import Contact from "./component/Contact/contact";
+import Goal from "./component/Goal/goal";
+import Discover from "./component/Discover/discover";
+
 // import Pricing from "./component/Pricing/Pricing";
 
 export default function Home() {
@@ -18,12 +22,15 @@ export default function Home() {
       {/* <Pricing /> */}
 
       <Research />
+      <Goal />
       <Template />
       <Funding />
       <Sponsor />
-      <BlogPost />
+      {/* <BlogPost /> */}
+      <Discover />
       <Faq />
       <Subscribe />
+      <Contact />
       <Footer />
     </div>
   );

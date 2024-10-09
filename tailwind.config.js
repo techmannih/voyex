@@ -1,4 +1,3 @@
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -13,27 +12,30 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       fontWeight: {
-        'thin': 100,
-        'extra-light': 200,
-        'light': 300,
-        'normal': 400,
-        'medium': 500,
-        'semibold': 600,
-        'bold': 700,
-        'extra-bold': 800,
-        'black': 900,
+        thin: 100,
+        "extra-light": 200,
+        light: 300,
+        normal: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
+        "extra-bold": 800,
+        black: 900,
       },
       fontStyle: {
-        'italic': 'italic',
-        'oblique': 'oblique',
-        'normal': 'normal',
+        italic: "italic",
+        oblique: "oblique",
+        normal: "normal",
+      },
+      opacity: {
+        88: "0.88",
       },
     },
   },
   variants: {
     extend: {
-      fontStyle: ['responsive', 'hover', 'focus'],
-      fontWeight: ['responsive', 'hover', 'focus'],
+      fontStyle: ["responsive", "hover", "focus"],
+      fontWeight: ["responsive", "hover", "focus"],
     },
   },
   plugins: [],
