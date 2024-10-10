@@ -46,17 +46,8 @@ export default function Navbar() {
           </li>
         </ul>
         <div className="">
-          <button
-            className="py-2 px-4 rounded-full text-[14px] font-normal leading-[17.92px]"
-            style={{
-              color: "rgba(114, 249, 103, 1)", // Set text color here
-            }}
-          >
-            Sign Up
-          </button>
-
           <button className="text-black py-2 px-8 text-[14px] font-medium leading-[17.92px] rounded-full bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] custom-border">
-            Log in
+            Go to App
           </button>
         </div>
       </div>
