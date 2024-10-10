@@ -1,4 +1,4 @@
-"use client"; // Ensure this is at the top if you're using Next.js
+'use client'; // Ensure this is at the top if you're using Next.js
 
 import React from "react";
 import sponsorData from "./data";
@@ -13,13 +13,13 @@ export default function Sponsor() {
         Trusted by Industry leaders
       </p>
       <div className="flex sponsor-carousel animate-scroll whitespace-nowrap">
-        {sponsorData.map((sponsor, i) => (
+        {duplicatedSponsors.map((sponsor, i) => (
           <div
             key={i}
             className="flex items-center m-4 bg-[rgba(23,25,32,1)] h-[47.71px] px-6 py-2 gap-[6.45px] rounded-full opacity-100"
           >
             <img src={sponsor.icon} alt="" className="mr-2" />
-            <span className="text-white  whitespace-nowrap">
+            <span className="text-white whitespace-nowrap">
               {sponsor.name}
             </span>
           </div>

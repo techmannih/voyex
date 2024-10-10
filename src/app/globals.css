@@ -119,3 +119,17 @@ body {
   border-image-slice: 1;
   box-shadow: 0 0 4px #84de7c, 0 0 8px #46ba3c, 0 0 12px #46ba3c, 0 0 8px;
 }
+
+/* styles.css or your global CSS file */
+.sponsor-carousel {
+  animation: scroll 5s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Adjust this based on how many items you have */
+  }
+}
