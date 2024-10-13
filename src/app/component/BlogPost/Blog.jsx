@@ -70,7 +70,7 @@ export default function BlogPost() {
                     <Image
                       src={post.image}
                       alt={post.title}
-                      layout="responsive"
+                     
                       width={300}
                       height={180}
                       className="rounded-[20px]"

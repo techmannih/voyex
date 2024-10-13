@@ -28,10 +28,9 @@ export default function Research() {
                 <Image
                   src={item.image}
                   alt={item.title}
-                  layout="fixed" // Use fixed layout to control size
+                  // Use fixed layout to control size
                   width={670} // Set the width
                   height={379} // Set the height
-                  objectFit="cover"
                   className="rounded-[24px]" // Apply border radius
                 />
               </div>
@@ -43,7 +42,7 @@ export default function Research() {
                   // layout="fixed" // Use fixed layout to control size
                   width={670} // Set the width
                   height={379} // Set the height
-                  objectFit="cover"
+                  
                   className="rounded-[24px]" // Apply border radius
                 />
                 <div className="flex gap-[57px] relative w-full items-center">
