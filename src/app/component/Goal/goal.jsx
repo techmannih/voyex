@@ -8,8 +8,8 @@ export default function Goal() {
         <h1 className="text-[69.9px] font-medium leading-[74px] tracking-[-3.6px] text-[#2DE21D]">
           The Future of Automation: Agent-Based Workflows
         </h1>
-        <p className="text-[19.8px] font-light leading-[28px] tracking-[-0.2px] text-left mt-16  ">
-          This is just the beginning. We're developing agent-based workflows
+        <p className="text-[19.8px] font-light leading-[28px] tracking-[-0.2px] text-left mt-16">
+          This is just the beginning. We&apos;re developing agent-based workflows
           that will allow you to
         </p>
         <div className="w-[660px] mt-16">
@@ -30,7 +30,7 @@ export default function Goal() {
         </div>
 
         <p className="text-[19.8px] font-light leading-[28px] tracking-[-0.2px] text-left mt-8">
-          It’s like having a personal agency that manages everything, from
+          It&apos;s like having a personal agency that manages everything, from
           content creation and social media strategies to technical tasks.
         </p>
       </div>
