@@ -36,7 +36,7 @@ export default function BlogPost() {
     <div className=" text-white mt-24">
       <div className="flex flex-col items-center justify-center text-center mb-8">
         <p className="text-[rgba(70,186,60,1)]">Blogpost</p>
-        <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-[0.02em] mb-4">
+        <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-widemb-4">
           Insights, Ideas, and Stories Worth Sharing
         </h1>
       </div>
@@ -86,11 +86,11 @@ export default function BlogPost() {
                       </span>
                     ))}
                   </div>
-                  <h1 className="text-[30px] font-bold leading-[36px] text-left">
+                  <h1 className="text-[30px] font-bold leading-[36px]tracking-wide text-left">
                     {truncateDescription(post.title, 4)}
                   </h1>
 
-                  <p className="mt-2">
+                  <p className="mt-2 tracking-wide">
                     {truncateDescription(post.content, 10)}{" "}
                     {/* Truncated content */}
                   </p>

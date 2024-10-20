@@ -15,7 +15,7 @@ export default function Faq() {
       <div className="text-white flex items-start justify-between gap-3 w-full">
         <div className="w-1/2">
           <p className="text-[rgba(70,186,60,1)] ">FAQs</p>
-          <h1 className="font-fk-grotesk text-7xl font-bold leading-[100px] tracking-[0.02em] text-left mt-3">
+          <h1 className="font-fk-grotesk text-7xl font-bold leading-[100px] tracking-wide text-left mt-3">
             What
             <br /> Explorers are Asking
           </h1>
@@ -33,7 +33,7 @@ export default function Faq() {
             >
               <div className=" flex justify-between items-center">
                 <h2
-                  className="text-xl font-semibold cursor-pointer rouned-full"
+                  className="text-xl font-semibold cursor-pointer rouned-full tracking-wide"
                   onClick={() => toggleAnswer(index)}
                   onKeyPress={(e) => {
                     if (e.key === "Enter") toggleAnswer(index);
@@ -47,7 +47,7 @@ export default function Faq() {
               </div>
 
               {activeIndex === index && (
-                <p className="text-base mt-2">{faq.answer}</p>
+                <p className="text-base mt-2 tracking-wide">{faq.answer}</p>
               )}
             </div>
           ))}

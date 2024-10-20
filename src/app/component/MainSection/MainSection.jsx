@@ -54,7 +54,7 @@ export default function MainSection() {
       {/* <div className="bg-[rgba(114,249,103,1)] h-[50px] flex items-center justify-center"></div> */}
 
       <motion.h1
-        className="font-medium leading-[110.08px] tracking-[0.02em] mx-auto mt-24 text-[86px] gap-[10px]"
+        className="font-medium leading-[110.08px] tracking-wide mx-auto mt-24 text-[86px] gap-[10px]"
         style={{ width: headings[currentIndex].width }} // Set width dynamically
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -65,13 +65,13 @@ export default function MainSection() {
       </motion.h1>
 
       <div className="flex justify-center mt-8">
-        <p className="mt-2 text-center opacity-88 font-light w-[978px] text-[20px] leading-[25.6px] tracking-[0.02em] text-[rgba(255, 255, 255, 1)]">
+        <p className="mt-2 text-center opacity-88 font-light w-[978px] text-[20px] leading-[25.6px] tracking-wide text-[rgba(255, 255, 255, 1)]">
           Voyex is your Superapp that allows you to get the right AI tools and the correct workflow as per your use case. It simplifies finding, using, and querying AI tools and creates your own mini agency. All you need to do is describe your use case in a few words.
         </p>
       </div>
 
       <div className="flex justify-center mt-8 gap-6">
-        <button className="mt-8 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6">
+        <button className="mt-8 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
           <span className="text-black text-[14px]">Start Your AI Journey</span>
         </button>
         <button className="mt-8 w-[208.45px] h-[38.91px] border-[1.48px] border-solid border-[rgba(70,186,60,1)] rounded-full opacity-100 flex justify-center px-6 items-center">

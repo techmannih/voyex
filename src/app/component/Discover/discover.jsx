@@ -5,11 +5,11 @@ export default function Discover() {
         <p className="text-[18.44px] font-medium leading-[23.6px] text-left text-[#84DE7C]">
           Get Discovered
         </p>
-        <h1 className="text-[48px] font-medium leading-[61.44px] tracking-[0.02em] text-center w-[860px]">
+        <h1 className="text-[48px] font-medium leading-[61.44px] tracking-wide text-center w-[860px]">
           Are You an AI Tool Developer or Product Owner?
         </h1>
         <p
-          className="text-[18px] font-light leading-[28px] text-center mt-4 opacity-88"
+          className="text-[18px] font-light leading-[28px] text-center mt-4 opacity-88 tracking-wide"
           style={{ opacity: 0.88 }}
         >
           Don’t miss out on the momentum with Voyex. List your product or tool
