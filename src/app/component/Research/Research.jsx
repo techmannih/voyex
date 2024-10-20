@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Research() {
   return (
-    <div className="flex justify-center mt-20 w-full mx-auto ">
+    <div className="flex justify-center mt-20  mx-[60px]  ">
       <div className="flex flex-col items-center text-white">
         {researchData.map((item) => (
           <div key={item.id} className="flex w-full my-20">
@@ -45,8 +45,8 @@ export default function Research() {
                   
                   className="rounded-[24px]" // Apply border radius
                 />
-                <div className="flex gap-[57px] relative w-full items-center">
-                  <div className="gap-3 flex flex-col item w-[603px]">
+                <div className="flex gap-[57px] relative  items-center">
+                  <div className="gap-3 flex flex-col item w-[586px]">
                     <p className="text-[rgba(70,186,60,1)]  text-[18.44px] font-medium leading-[23.6px]">
                       {item.template}
                     </p>

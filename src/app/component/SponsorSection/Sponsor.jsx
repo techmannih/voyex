@@ -9,7 +9,7 @@ export default function Sponsor() {
   const duplicatedSponsors = [...sponsorData, ...sponsorData]; // Duplicate the sponsor data
 
   return (
-    <div className="overflow-hidden mt-16 relative">
+    <div className="overflow-hidden mt-16 mx-[60px] relative">
       <p className="text-white flex justify-center">
         Trusted by Industry leaders
       </p>
@@ -17,16 +17,16 @@ export default function Sponsor() {
         {duplicatedSponsors.map((sponsor, i) => (
           <div
             key={i}
-            className="flex items-center m-4 bg-[rgba(23,25,32,1)] h-[47.71px] px-6 py-2 gap-[6.45px] rounded-full opacity-100"
+            className="flex items-center m-4  bg-[rgba(23,25,32,1)] h-[47.71px] px-6 py-2 gap-[6.45px] rounded-full opacity-100"
           >
             <Image 
               src={sponsor.icon} 
               alt={sponsor.name} // Provide a descriptive alt text
               width={50} // Set a width (adjust as necessary)
               height={50} // Set a height (adjust as necessary)
-              className="mr-2"
+              className="my-2"
             />
-            <span className="text-white whitespace-nowrap">
+            <span className="text-white whitespace-nowrap mr-2">
               {sponsor.name}
             </span>
           </div>

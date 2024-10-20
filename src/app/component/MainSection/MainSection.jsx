@@ -50,8 +50,8 @@ export default function MainSection() {
   }, [currentIndex]);
 
   return (
-    <div className="text-white text-center">
-      <div className="bg-[rgba(114,249,103,1)] h-[50px] flex items-center justify-center"></div>
+    <div className="text-white text-center  mx-[60px] ">
+      {/* <div className="bg-[rgba(114,249,103,1)] h-[50px] flex items-center justify-center"></div> */}
 
       <motion.h1
         className="font-medium leading-[110.08px] tracking-[0.02em] mx-auto mt-24 text-[86px] gap-[10px]"

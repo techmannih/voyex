@@ -1,8 +1,8 @@
 export default function Funding() {
   return (
-    <div className="flex justify-center px-10 mt-48 w-full mx-auto">
+    <div className="flex mt-48  mx-[60px] ">
       <div
-        className="flex justify-between items-center gap-5 rounded-[33px] border border-gray-700 max-w-7xl w-full p-12"
+        className="flex justify-between items-center gap-5 rounded-[33px] border border-gray-700 w-[1320px] p-12"
         style={{
           background:
             "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",

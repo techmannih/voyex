@@ -11,7 +11,7 @@ export default function Faq() {
   };
 
   return (
-    <div className="max-w-6xl w-full mx-auto my-40">
+    <div className="  mx-[60px]  my-40">
       <div className="text-white flex items-start justify-between gap-3 w-full">
         <div className="w-1/2">
           <p className="text-[rgba(70,186,60,1)] ">FAQs</p>

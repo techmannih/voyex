@@ -12,7 +12,7 @@ const truncateDescription = (description, wordLimit) => {
 
 export default function Template() {
   return (
-    <div className="px-10 text-white m-32">
+    <div className=" text-white mt-32 mx-[60px]">
       <div className="flex flex-col items-center justify-center text-center mb-8">
         <p className="text-[rgba(70,186,60,1)]">Use Templates</p>
         <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-[0.02em] mb-4">

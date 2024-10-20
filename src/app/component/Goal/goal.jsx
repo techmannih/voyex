@@ -3,8 +3,8 @@ import chatbot from "../../../../assets/Frame.png";
 
 export default function Goal() {
   return (
-    <div className="flex flex-col md:flex-row justify-center mt-20 w-full mx-auto text-white">
-      <div className="w-[983px] h-[495px]">
+    <div className="flex justify-between mt-20  mx-[60px]  text-white relative">
+      <div className="w-[800px] h-[495px]">
         <h1 className="text-[69.9px] font-medium leading-[74px] tracking-[-3.6px] text-[#2DE21D]">
           The Future of Automation: Agent-Based Workflows
         </h1>

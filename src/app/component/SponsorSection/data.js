@@ -1,86 +1,89 @@
+
+import icon from '../../../../assets/near-icon.png';
+
 const SponsorData = [
     {
       name: "Near",
-      icon: "https://example.com/icons/Near.png",
+      icon: icon,
     },
     {
       name: "Bitcoin",
-      icon: "https://example.com/icons/bitcoin.png",
+      icon: icon,
     },
     {
       name: "Binance Smart Chain",
-      icon: "https://example.com/icons/bsc.png",
+      icon: icon,
     },
     {
       name: "Cardano",
-      icon: "https://example.com/icons/cardano.png",
+      icon: icon,
     },
     {
       name: "Solana",
-      icon: "https://example.com/icons/solana.png",
+      icon: icon,
     },
     {
       name: "Polkadot",
-      icon: "https://example.com/icons/polkadot.png",
+      icon: icon,
     },
     {
       name: "Ripple",
-      icon: "https://example.com/icons/ripple.png",
+      icon: icon,
     },
     {
       name: "Near",
-      icon: "https://example.com/icons/Near.png",
+      icon: icon,
     },
     {
       name: "Bitcoin",
-      icon: "https://example.com/icons/bitcoin.png",
+      icon: icon,
     },
     {
       name: "Binance Smart Chain",
-      icon: "https://example.com/icons/bsc.png",
+      icon: icon,
     },
     {
       name: "Cardano",
-      icon: "https://example.com/icons/cardano.png",
+      icon: icon,
     },
     {
       name: "Solana",
-      icon: "https://example.com/icons/solana.png",
+      icon: icon,
     },
     {
       name: "Polkadot",
-      icon: "https://example.com/icons/polkadot.png",
+      icon: icon,
     },
     {
       name: "Ripple",
-      icon: "https://example.com/icons/ripple.png",
+      icon: icon,
     },{
       name: "Near",
-      icon: "https://example.com/icons/Near.png",
+      icon: icon,
     },
     {
       name: "Bitcoin",
-      icon: "https://example.com/icons/bitcoin.png",
+      icon: icon,
     },
     {
       name: "Binance Smart Chain",
-      icon: "https://example.com/icons/bsc.png",
+      icon: icon,
     },
     {
       name: "Cardano",
-      icon: "https://example.com/icons/cardano.png",
+      icon: icon,
     },
     {
       name: "Solana",
-      icon: "https://example.com/icons/solana.png",
+      icon: icon,
     },
     {
       name: "Polkadot",
-      icon: "https://example.com/icons/polkadot.png",
+      icon: icon,
     },
     {
       name: "Ripple",
-      icon: "https://example.com/icons/ripple.png",
+      icon: icon,
     },
   ];
   
