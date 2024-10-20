@@ -13,14 +13,14 @@ export default function Faq() {
   return (
     <div className="  mx-[60px]  my-40">
       <div className="text-white flex items-start justify-between gap-3 w-full">
-        <div className="w-1/2">
+        <div className="w-[696px]">
           <p className="text-[rgba(70,186,60,1)] ">FAQs</p>
-          <h1 className="font-fk-grotesk text-7xl font-bold leading-[100px] tracking-wide text-left mt-3">
+          <h1 className="font-fk-grotesk text-[96px] font-medium leading-[123px] tracking-wide text-left mt-3">
             What
             <br /> Explorers are Asking
           </h1>
         </div>
-        <div className="space-y-4 mt-4 w-1/2">
+        <div className="space-y-4 mt-4 w-[616px]">
           {voyexFAQs.map((faq, index) => (
             <div
               key={index}

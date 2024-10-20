@@ -17,7 +17,7 @@ export default function Sponsor() {
         {duplicatedSponsors.map((sponsor, i) => (
           <div
             key={i}
-            className="flex items-center m-4  bg-[rgba(23,25,32,1)] h-[47.71px] px-6 py-2 gap-[6.45px] rounded-full opacity-100"
+            className="flex items-center m-4  bg-[rgba(23,25,32,1)] h-[47.71px] px-6 py-2 gap-[6.45px] rounded-full opacity-100 w-full"
           >
             <Image 
               src={sponsor.icon} 

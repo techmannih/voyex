@@ -1,7 +1,7 @@
 export default function Discover() {
   return (
-    <div className=" flex  mt-48  mx-[60px] justify-center">
-      <div className="flex flex-col items-center text-white w-[1150px]">
+    <div className=" flex  mt-48  mx-[60px] justify-center text-center">
+      <div className="flex flex-col items-center text-white w-[1156px]">
         <p className="text-[18.44px] font-medium leading-[23.6px] text-left text-[#84DE7C]">
           Get Discovered
         </p>
@@ -9,7 +9,7 @@ export default function Discover() {
           Are You an AI Tool Developer or Product Owner?
         </h1>
         <p
-          className="text-[18px] font-light leading-[28px] text-center mt-4 opacity-88 tracking-wide"
+          className="text-[16px] font-light leading-[24px] text-center mt-4 opacity-88 tracking-wide w-[1156px]"
           style={{ opacity: 0.88 }}
         >
           Don’t miss out on the momentum with Voyex. List your product or tool
@@ -20,7 +20,7 @@ export default function Discover() {
           for our first few partners.
         </p>
         <p
-          className="text-[18px] font-light leading-[28px] text-center mt-2 opacity-88"
+          className="text-[16px] font-light leading-[24px] text-center mt-2 opacity-88 tracking-wide"
           style={{ opacity: 0.88 }}
         >
           Voyex acts as the Google for AI—don’t let your tool go unnoticed. By
