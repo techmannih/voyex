@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Research() {
   return (
-    <div className="flex justify-center mt-20 w-full mx-auto ">
+    <div className="flex justify-center mt-20  mx-[60px]  ">
       <div className="flex flex-col items-center text-white">
         {researchData.map((item) => (
           <div key={item.id} className="flex w-full my-20">
@@ -13,11 +13,11 @@ export default function Research() {
                   <p className="text-[rgba(70,186,60,1)] text-[18.44px] font-medium leading-[23.6px]">
                     {item.template}
                   </p>
-                  <h1 className="text-[64px] font-medium leading-[81.92px] tracking-[0.02em] text-left">
+                  <h1 className="text-[64px] font-medium leading-[81.92px] tracking-wide text-left">
                     {item.title}
                   </h1>
                   <p
-                    className="font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-[0.02px] text-left opacity-88"
+                    className="font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-wide text-left opacity-88"
                     style={{ opacity: 0.88 }}
                   >
                     {" "}
@@ -45,17 +45,17 @@ export default function Research() {
                   
                   className="rounded-[24px]" // Apply border radius
                 />
-                <div className="flex gap-[57px] relative w-full items-center">
-                  <div className="gap-3 flex flex-col item w-[603px]">
-                    <p className="text-[rgba(70,186,60,1)]  text-[18.44px] font-medium leading-[23.6px]">
+                <div className="flex gap-[57px] relative  items-center">
+                  <div className="gap-3 flex flex-col item w-[586px]">
+                    <p className="text-[rgba(70,186,60,1)]  text-[18.44px] font-medium leading-[23.6px] tracking-wide">
                       {item.template}
                     </p>
-                    <h1 className="text-[64px] font-medium leading-[81.92px] tracking-[0.02em] text-left">
+                    <h1 className="text-[64px] font-medium leading-[81.92px] tracking-wide text-left">
                       {item.title}
                     </h1>
 
                     <p
-                      className="font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-[0.02em] text-left opacity-88"
+                      className="font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-wide text-left opacity-88"
                       style={{ opacity: 0.88 }}
                     >
                       {" "}
