@@ -1,5 +1,6 @@
 import Image from "next/image";
 import chatbot from "../../../../assets/Frame.png";
+import Icon from "../../../../assets/Icon.png";
 
 export default function Goal() {
   return (
@@ -9,21 +10,57 @@ export default function Goal() {
           The Future of Automation: Agent-Based Workflows
         </h1>
         <p className="text-[19.8px] font-light leading-[28px] tracking-[-0.2px] text-left mt-16">
-          This is just the beginning. We&apos;re developing agent-based workflows
-          that will allow you to
+          This is just the beginning. We&apos;re developing agent-based
+          workflows that will allow you to
         </p>
         <div className="w-[660px] mt-16">
           <ul className="list-none flex flex-wrap">
-            <li className="w-1/2 text-[17.9px] font-normal leading-[26px] tracking-[-0.144px] text-left p-1">
+            <li className="w-1/2 text-[17.9px] font-normal leading-[26px] tracking-[-0.144px] text-left p-1 flex">
+              <span>
+                <Image
+                  src={Icon}
+                  width={20}
+                  height={20}
+                  alt="Icon"
+                  className="mr-2.5"
+                />
+              </span>
               Ask deeper questions
             </li>
-            <li className="w-1/2 text-[17.9px] font-normal leading-[26px] tracking-[-0.144px] text-left p-1">
+            <li className="w-1/2 text-[17.9px] font-normal leading-[26px] tracking-[-0.144px] text-left p-1 flex">
+              <span>
+                <Image
+                  src={Icon}
+                  width={20}
+                  height={20}
+                  alt="Icon"
+                  className="mr-2.5"
+                />
+              </span>
               Automate campaigns
             </li>
-            <li className="w-1/2 text-[17.9px] font-normal leading-[26px] tracking-[-0.144px] text-left p-1">
+            <li className="w-1/2 text-[17.9px] font-normal leading-[26px] tracking-[-0.144px] text-left p-1 flex">
+              <span>
+                <Image
+                  src={Icon}
+                  width={20}
+                  height={20}
+                  alt="Icon"
+                  className="mr-2.5"
+                />
+              </span>
               Track performance metrics
             </li>
-            <li className="w-1/2 text-[17.9px] font-normal leading-[26px] tracking-[-0.144px] text-left p-1">
+            <li className="w-1/2 text-[17.9px] font-normal leading-[26px] tracking-[-0.144px] text-left p-1 flex">
+              <span>
+                <Image
+                  src={Icon}
+                  width={20}
+                  height={20}
+                  alt="Icon"
+                  className="mr-2.5"
+                />
+              </span>
               Run workflows using multiple AI tools
             </li>
           </ul>

@@ -46,7 +46,7 @@ export default function Research() {
                   className="rounded-[24px]" // Apply border radius
                 />
                 <div className="flex gap-[57px] relative  items-center">
-                  <div className="gap-3 flex flex-col item w-[586px]">
+                  <div className="gap-3 flex flex-col item w-full max-w-[586px]">
                     <p className="text-[rgba(70,186,60,1)]  text-[18.44px] font-medium leading-[23.6px] tracking-wide">
                       {item.template}
                     </p>
