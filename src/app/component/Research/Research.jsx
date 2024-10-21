@@ -13,11 +13,11 @@ export default function Research() {
                   <p className="text-[rgba(70,186,60,1)] text-[18.44px] font-medium leading-[23.6px]">
                     {item.template}
                   </p>
-                  <h1 className="text-[64px] font-medium leading-[81.92px] tracking-wide text-left">
+                  <h1 className="text-[64px] font-medium leading-[81.92px] tracking-wider	 text-left">
                     {item.title}
                   </h1>
                   <p
-                    className="font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-wide text-left opacity-88"
+                    className="font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-wider	 text-left opacity-88"
                     style={{ opacity: 0.88 }}
                   >
                     {" "}
@@ -47,15 +47,15 @@ export default function Research() {
                 />
                 <div className="flex gap-[57px] relative  items-center">
                   <div className="gap-3 flex flex-col item w-full max-w-[586px]">
-                    <p className="text-[rgba(70,186,60,1)]  text-[18.44px] font-medium leading-[23.6px] tracking-wide">
+                    <p className="text-[rgba(70,186,60,1)]  text-[18.44px] font-medium leading-[23.6px] tracking-wider	">
                       {item.template}
                     </p>
-                    <h1 className="text-[64px] font-medium leading-[81.92px] tracking-wide text-left">
+                    <h1 className="text-[64px] font-medium leading-[81.92px] tracking-wider	 text-left">
                       {item.title}
                     </h1>
 
                     <p
-                      className="font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-wide text-left opacity-88"
+                      className="font-fk-grotesk text-[16px] font-light leading-[20.48px] tracking-wider	 text-left opacity-88"
                       style={{ opacity: 0.88 }}
                     >
                       {" "}

@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className=" flex justify-between items-center">
         <Link
           href="/"
-          className="text-[24px] font-bold leading-[30.72px] tracking-wide text-left"
+          className="text-[24px] font-bold leading-[30.72px] tracking-wider	 text-left"
         >
           Voyex.
         </Link>
