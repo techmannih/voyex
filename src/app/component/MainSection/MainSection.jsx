@@ -14,7 +14,7 @@ const headings = [
         in one click
       </>
     ),
-    width: '978px',
+    width: '1100px',
   },
   {
     text: (
@@ -34,7 +34,7 @@ const headings = [
         at your fingertips
       </>
     ),
-    width: '1109px',
+    width: '1200px',
   },
 ];
 

@@ -26,7 +26,7 @@ export default function Sponsor() {
               height={50} // Set a height (adjust as necessary)
               className="my-2"
             />
-            <span className="text-white whitespace-nowrap mr-2">
+            <span className="text-white whitespace-nowrap mr-4 pr-2">
               {sponsor.name}
             </span>
           </div>

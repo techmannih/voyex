@@ -33,7 +33,7 @@ export default function Faq() {
             >
               <div className=" flex justify-between items-center">
                 <h2
-                  className="text-xl font-semibold cursor-pointer rouned-full tracking-wider	"
+                  className="text-[20px] leading-[25.6px] font-semibold cursor-pointer rouned-full tracking-wider	"
                   onClick={() => toggleAnswer(index)}
                   onKeyPress={(e) => {
                     if (e.key === "Enter") toggleAnswer(index);
@@ -47,7 +47,7 @@ export default function Faq() {
               </div>
 
               {activeIndex === index && (
-                <p className="text-base mt-2 tracking-wider	">{faq.answer}</p>
+                <p className="text-base mt-2 tracking-wider leading-[25.6px]	">{faq.answer}</p>
               )}
             </div>
           ))}

@@ -2,11 +2,13 @@ export default function Subscribe() {
   return (
     <div className="opacity-100">
       <div className="text-center mb-4">
-        <h1 className="text-[24px] font-medium leading-[30px] text-[rgba(70,186,60,1)]">
+        <h1 className="text-[24px] font-medium leading-[30px] text-[rgba(70,186,60,1)] tracking-wider">
           Subscribe to Our Mailing
         </h1>
 
-        <p className="text-white p-2">Your email is safe with us.</p>
+        <p className="text-white text-base font-normal leading-6 p-2 tracking-wider">
+          Your email is safe with us.
+        </p>
       </div>
       <div className="flex gap-4 max-w-3xl mx-auto my-8">
         <input
