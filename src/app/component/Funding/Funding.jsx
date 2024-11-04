@@ -1,6 +1,6 @@
 export default function Funding() {
   return (
-    <div className="flex mt-48 justify-center">
+    <div className="flex mt-48 justify-center smooth-scroll">
       <div
         className="flex justify-between items-center gap-5 rounded-[33px] border border-gray-700 w-full max-w-[1320px] p-12"
         style={{

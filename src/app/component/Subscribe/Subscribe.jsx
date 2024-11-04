@@ -1,6 +1,6 @@
 export default function Subscribe() {
   return (
-    <div className="opacity-100">
+    <div className="opacity-100 smooth-scroll">
       <div className="text-center mb-4">
         <h1 className="text-[24px] font-medium leading-[30px] text-[rgba(70,186,60,1)] tracking-wider">
           Subscribe to Our Mailing

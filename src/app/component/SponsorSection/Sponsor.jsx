@@ -9,7 +9,7 @@ export default function Sponsor() {
   const duplicatedSponsors = [...sponsorData, ...sponsorData]; // Duplicate the sponsor data
 
   return (
-    <div className="overflow-hidden mt-16 mx-[60px] relative">
+    <div className="overflow-hidden mt-16 mx-[60px] relative smooth-scroll">
       <p className="text-white flex justify-center">
         Trusted by Industry leaders
       </p>

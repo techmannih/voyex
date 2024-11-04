@@ -50,7 +50,7 @@ export default function MainSection() {
   }, [currentIndex]);
 
   return (
-    <div className="text-white text-center  mx-[60px] ">
+    <div className="text-white text-center  mx-[60px] smooth-scroll ">
       {/* <div className="bg-[rgba(114,249,103,1)] h-[50px] flex items-center justify-center"></div> */}
 
       <motion.h1

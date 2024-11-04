@@ -3,7 +3,7 @@ import { FaDiscord } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 export default function Contact() {
   return (
-    <div className="flex justify-center items-center gap-4 mt-20">
+    <div className="flex justify-center items-center gap-4 mt-20 smooth-scroll">
       <FaXTwitter className=" text-3xl text-white" />
       <FaDiscord className=" text-3xl text-white" />
       <FaGithubSquare className="text-3xl text-white" />

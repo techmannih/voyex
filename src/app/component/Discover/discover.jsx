@@ -1,6 +1,6 @@
 export default function Discover() {
   return (
-    <div className=" flex  mt-48  mx-[60px] justify-center text-center">
+    <div className=" flex  mt-48  mx-[60px] justify-center text-center smooth-scroll">
       <div className="flex flex-col items-center text-white w-full max-w-[1156px]">
         <p className="text-[18.44px] font-medium leading-[23.6px] text-left text-[#84DE7C]">
           Get Discovered

@@ -4,7 +4,7 @@ import Icon from "../../../../assets/Icon.png";
 
 export default function Goal() {
   return (
-    <div className="flex justify-between mt-20  mx-[60px]  text-white relative">
+    <div className="flex justify-between mt-20  mx-[60px]  text-white relative smooth-scroll" >
       <div className="w-full  items-center max-w-[800px] h-[495px]">
         <h1 className="text-[69.9px] font-medium leading-[74px] tracking-[-3.6px] text-[#2DE21D]">
           The Future of Automation: Agent-Based Workflows

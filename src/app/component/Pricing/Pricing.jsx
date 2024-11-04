@@ -3,7 +3,7 @@ import { CiCircleCheck } from "react-icons/ci";
 
 export default function App() {
   return (
-    <div className="">
+    <div className="smooth-scroll">
       <div className=" flex justify-center gap-8">
         <div className="Individual bg-[rgba(55, 124, 253, 1)] shadow-[0px_4px_100px_rgba(0,75,255,0.05)] p-9 rounded-[32px] w-[450px] h-[800px] border-[1.5px] border-gray-600 border-transparent opacity-100">
           <h1 className="text-blue-600 text-3xl my-3">Individual</h1>

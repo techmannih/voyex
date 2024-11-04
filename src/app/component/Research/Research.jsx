@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Research() {
   return (
-    <div className="flex justify-center mt-20  mx-[60px]  ">
+    <div className="flex justify-center mt-20  mx-[60px] smooth-scroll ">
       <div className="flex flex-col items-center w-full max-w-[1320px] text-white">
         {researchData.map((item) => (
           <div key={item.id} className="flex my-20">
