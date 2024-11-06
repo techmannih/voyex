@@ -1,12 +1,25 @@
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Navbar() {
   return (
-    <div className="bg-black text-white  py-10 mx-[60px] ">
-      <div className=" flex justify-between items-center">
+    <motion.div
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      transition={{
+        type: "spring",
+        stiffness: 50,
+        damping: 20,
+        duration: 2,
+      }}
+      className="bg-black text-white py-10 mx-[60px]"
+    >
+      <div className="flex justify-between items-center">
         <Link
           href="/"
-          className="text-[24px] font-bold leading-[30.72px] tracking-wider	 text-left"
+          className="text-[24px] font-bold leading-[30.72px] tracking-wider text-left"
         >
           Voyex.
         </Link>
@@ -45,12 +58,12 @@ export default function Navbar() {
             </Link>
           </li>
         </ul>
-        <div className="">
+        <div>
           <button className="text-black py-2 px-8 text-[14px] font-medium leading-[17.92px] rounded-full bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] custom-border">
             Go to App
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

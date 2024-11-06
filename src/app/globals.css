@@ -134,7 +134,7 @@ body {
     transform: translateX(-50%); /* Adjust this based on how many items you have */
   }
 }
-@keyframes appear {
+/* @keyframes appear {
   from {
       opacity: 0;
       transform: scale(0.5);
@@ -149,4 +149,4 @@ body {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
-}
+} */
