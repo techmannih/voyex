@@ -113,11 +113,12 @@ body {
 .overflow-hidden {
   overflow: hidden; /* Hide overflow to maintain carousel effect */
 }
-.custom-border {
+.custom-border:hover {
   border: transparent;
   border-image-source: linear-gradient(90deg, #46ba3c 0%, #84de7c 100%);
   border-image-slice: 1;
   box-shadow: 0 0 4px #84de7c, 0 0 8px #46ba3c, 0 0 12px #46ba3c, 0 0 8px;
+  transition: all 0.5s ease;
 }
 
 /* styles.css or your global CSS file */
