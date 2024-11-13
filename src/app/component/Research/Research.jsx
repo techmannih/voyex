@@ -8,7 +8,7 @@ export default function Research() {
         {researchData.map((item) => (
           <div key={item.id} className="flex my-20">
             {item.id % 2 === 1 ? (
-              <div className="flex gap-[57px] relative w-full items-center">
+              <div className="flex gap-[57px] relative w-full items-center max-md:flex-col">
                 <div className="flex gap-3 flex-col max-w-[603px]">
                   <p className="text-[rgba(70,186,60,1)] text-[18.44px] font-medium leading-[23.6px]">
                     {item.template}
@@ -35,7 +35,7 @@ export default function Research() {
                 />
               </div>
             ) : (
-              <div className="flex gap-[57px] relative">
+              <div className="flex gap-[57px] relative max-md:flex-col-reverse">
                 <Image
                   src={item.image}
                   alt={item.title}
