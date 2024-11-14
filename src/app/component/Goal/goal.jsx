@@ -4,7 +4,7 @@ import Icon from "../../../../assets/Icon.png";
 
 export default function Goal() {
   return (
-    <div className="flex flex-col md:flex-row justify-between mt-20 mx-[20px] md:mx-[60px] text-white relative smooth-scroll">
+    <div className="flex flex-col md:flex-row justify-between mt-20 mx-[60px] max-md:mx-[16px] text-white relative smooth-scroll">
       <div className="w-full md:w-[50%] items-center max-w-[800px] h-auto">
         <h1
           className="text-[#2DE21D] text-[48px] font-medium leading-[61px] tracking-[-3.6px] max-sm:text-[40px] max-sm:leading-[50px] max-md:text-[60px] max-md:leading-[70px] mt-4 md:text-[69.9px] md:leading-[74px]"

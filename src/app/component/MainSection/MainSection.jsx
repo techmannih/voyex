@@ -57,7 +57,7 @@ export default function MainSection() {
 
   return (
     <motion.div
-      className="text-white text-center mx-[60px] smooth-scroll"
+      className="text-white text-center mx-[60px] max-md:mx-[16px] smooth-scroll"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       viewport={{  amount: 0.2 }}

@@ -20,7 +20,7 @@ export default function Navbar() {
         damping: 20,
         duration: 2,
       }}
-      className="bg-black text-white py-10 mx-[60px]"
+      className="bg-black text-white py-10 mx-[60px] max-md:mx-[16px]"
     >
       <div className="flex justify-between items-center">
         {/* Logo */}

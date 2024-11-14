@@ -11,7 +11,7 @@ export default function Faq() {
   };
 
   return (
-    <div className="  mx-[60px]  my-40 smooth-scroll">
+    <div className="  mx-[60px] max-md:mx-[16px] my-40 smooth-scroll">
       <div className="text-white flex items-start justify-between gap-6 flex-wrap">
         <div className="w-full md:w-[60%]">
           <p className="text-[rgba(70,186,60,1)] text-lg">FAQs</p>
