@@ -5,7 +5,7 @@ export default function Discover() {
         <p className="text-[18.44px] font-medium leading-[23.6px] text-left text-[#84DE7C]">
           Get Discovered
         </p>
-        <h1 className="text-[48px] font-medium leading-[61.44px] tracking-wider	 text-center w-full max-w-[860px]">
+        <h1 className="text-[48px] font-medium leading-[61.44px] tracking-wider max-md:text-[24px]	max-md:leading-[30.44px] text-center w-full max-w-[860px]">
           Are You an AI Tool Developer or Product Owner?
         </h1>
         <p
@@ -27,15 +27,15 @@ export default function Discover() {
           partnering with us, your tool becomes a key part of our workflow
           recommendations, ensuring it reaches users who need it most.
         </p>
-        <div className="flex justify-center mt-8 gap-6">
-          <button className="mt-8 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
+        <div className="flex justify-center mt-8 gap-6  max-md:items-center max-md:flex-col max-md:gap-[24px]">
+          <button className="mt-8 max-md:mt-0 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
             <span className="text-black text-[14px] font-normal leading-[17.92px] ">
               Get Started
             </span>
             {/* <IoArrowForwardOutline className="text-[rgba(70,186,60,1)]" /> */}
           </button>
 
-          <button className="mt-8 w-[208.45px] h-[38.91px] text-md font-normal  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">
+          <button className="mt-8  max-md:mt-0 w-[208.45px] h-[38.91px] text-md font-normal  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">
             <span className="text-[rgba(70,186,60,1)] ">Find out more</span>
             {/* <IoArrowForwardOutline  className="text-[rgba(70,186,60,1)]" /> */}
           </button>

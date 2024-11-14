@@ -10,11 +10,11 @@ export default function Subscribe() {
           Your email is safe with us.
         </p>
       </div>
-      <div className="flex gap-4 max-w-3xl mx-auto my-8">
+      <div className="flex gap-4 max-w-3xl mx-auto my-8 max-md:flex-col max-md:w-[208px]">
         <input
           type="email"
           placeholder="Enter your email"
-          className="flex-grow py-3 px-4 rounded-full outline-none bg-[#1E1E1E7A] text-gray-100 w-[604px]"
+          className="flex-grow py-3 px-4 rounded-full outline-none bg-[#1E1E1E7A] text-gray-100 w-[604px] max-md:w-[208px] "
         />
         <button className="py-2 px-7 rounded-full font-bold bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black custom-border ">
           Subscribe

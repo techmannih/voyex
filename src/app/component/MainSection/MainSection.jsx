@@ -84,11 +84,11 @@ export default function MainSection() {
         </p>
       </div>
 
-      <div className="flex justify-center max-md:items-center mt-8 gap-6 max-md:flex-col max-md:gap-1">
-        <button className="mt-8 max-md:mt-4 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
+      <div className="flex justify-center max-md:items-center mt-8 gap-6 max-md:flex-col max-md:gap-[24px]">
+        <button className="mt-8  max-md:mt-0 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
           <span className="text-black text-[14px]">Start Your AI Journey</span>
         </button>
-        <button className="mt-8 max-md:mt-6 w-[208.45px] h-[38.91px] border-[1.48px] border-solid border-[rgba(70,186,60,1)] rounded-full opacity-100 flex justify-center px-6 items-center">
+        <button className="mt-8  max-md:mt-0 w-[208.45px] h-[38.91px] border-[1.48px] border-solid border-[rgba(70,186,60,1)] rounded-full opacity-100 flex justify-center px-6 items-center">
           <span className="text-[rgba(70,186,60,1)]">Upload Product</span>
         </button>
       </div>

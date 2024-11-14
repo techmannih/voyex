@@ -12,15 +12,14 @@ export default function Faq() {
 
   return (
     <div className="  mx-[60px]  my-40 smooth-scroll">
-      <div className="text-white flex items-start justify-between gap-3 w-full">
-        <div className="w-[696px]">
-          <p className="text-[rgba(70,186,60,1)] ">FAQs</p>
-          <h1 className="font-fk-grotesk text-[96px] font-medium leading-[123px] tracking-wider	 text-left mt-3">
-            What
-            <br /> Explorers are Asking
+      <div className="text-white flex items-start justify-between gap-6 flex-wrap">
+        <div className="w-full md:w-[60%]">
+          <p className="text-[rgba(70,186,60,1)] text-lg">FAQs</p>
+          <h1 className="font-fk-grotesk text-[96px] font-medium leading-[123px] tracking-wider	 max-md:w-full text-left mt-3 max-md:text-[24px]	max-md:leading-[30.44px]">
+            What Explorers are Asking
           </h1>
         </div>
-        <div className="space-y-4 mt-4 w-[616px]">
+        <div className="space-y-4 mt-4 w-[616px] max-md:w-full">
           {voyexFAQs.map((faq, index) => (
             <div
               key={index}
@@ -47,7 +46,9 @@ export default function Faq() {
               </div>
 
               {activeIndex === index && (
-                <p className="text-base mt-2 tracking-wider leading-[25.6px]	">{faq.answer}</p>
+                <p className="text-base mt-2 tracking-wider leading-[25.6px]	">
+                  {faq.answer}
+                </p>
               )}
             </div>
           ))}

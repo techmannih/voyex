@@ -11,7 +11,7 @@ export default function Footer() {
         }}
       />
 
-      <div className="flex justify-between items-center max-w-7xl w-full mx-auto px-10">
+      <div className="flex justify-between items-center max-w-7xl w-full mx-auto px-10 max-sm:flex-col">
         <p>© {currentYear} Voyex Inc. All rights reserved.</p>
         <ul className="flex space-x-4">
           <li>Terms</li>
