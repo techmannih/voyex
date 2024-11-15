@@ -65,14 +65,14 @@ export default function MainSection() {
       transition={{ duration: 2, type: "spring", stiffness: 50, damping: 20 }}
     >
       <h1
-        className="font-medium leading-[110.08px] tracking-wider mx-auto mt-24 text-[86px] gap-[10px] max-sm:text-[48px] max-sm:leading-[61px] max-md:text-[72px] max-md:leading-[84px] max-lg:text-[86px] max-lg:leading-[110px] max-w-full"
+        className="font-medium leading-[110.08px] md:tracking-wider mx-auto mt-24 text-[86px] gap-[10px] max-sm:text-[48px] max-sm:leading-[61px] max-md:text-[72px] max-md:leading-[84px] max-lg:text-[86px] max-lg:leading-[110px] max-w-full"
         style={{ width: headings[currentIndex].width }}
       >
         {headings[currentIndex].text}
       </h1>
 
       <div className="flex justify-center mt-8">
-        <p className="mt-2 text-center opacity-88 font-light w-[978px] text-[20px] leading-[25.6px] tracking-wider text-[rgba(255, 255, 255, 1)]">
+        <p className="mt-2 text-center opacity-88 font-light w-[978px] text-[20px] leading-[25.6px] md:tracking-wider text-[rgba(255, 255, 255, 1)]">
           Voyex is your Superapp that allows you to get the right AI tools and
           the correct workflow as per your use case.{" "}
           <span className="max-md:hidden">

@@ -12,10 +12,11 @@ export default function Faq() {
 
   return (
     <div className="  mx-[60px] max-md:mx-[16px] my-40 smooth-scroll">
-      <div className="text-white flex items-start justify-between gap-6 flex-wrap">
-        <div className="w-full md:w-[60%]">
-          <p className="text-[rgba(70,186,60,1)] text-lg">FAQs</p>
+      <div className="text-white flex items-start justify-between gap-3 w-full max-lg:flex-col">
+        <div className="w-[696px] max-md:w-full">
+          <p className="text-[rgba(70,186,60,1)] ">FAQs</p>
           <h1 className="font-fk-grotesk text-[96px] font-medium leading-[123px] tracking-wider	 max-md:w-full text-left mt-3 max-md:text-[24px]	max-md:leading-[30.44px]">
+            {" "}
             What Explorers are Asking
           </h1>
         </div>

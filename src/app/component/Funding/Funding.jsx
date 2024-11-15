@@ -27,7 +27,7 @@ export default function Funding() {
         <div className="flex flex-wrap flex-col justify-center gap-3 text-white">
           <div className="flex flex-col sm:flex-row gap-3">
             <div
-              className="partners rounded-[17px] p-4 h-[163px] w-[263px] max-sm:w-[311px]"
+              className="partners rounded-[17px] p-4 h-[163px] w-[263px] max-sm:max-w-[311px]"
               style={{
                 background:
                   "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",

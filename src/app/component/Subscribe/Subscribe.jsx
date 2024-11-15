@@ -2,11 +2,11 @@ export default function Subscribe() {
   return (
     <div className="opacity-100 smooth-scroll">
       <div className="text-center mb-4">
-        <h1 className="text-[24px] font-medium leading-[30px] text-[rgba(70,186,60,1)] tracking-wider">
+        <h1 className="text-[24px] font-medium leading-[30px] text-[rgba(70,186,60,1)] max-md:tracking-wider">
           Subscribe to Our Mailing
         </h1>
 
-        <p className="text-white text-base font-normal leading-6 p-2 tracking-wider">
+        <p className="text-white text-base font-normal leading-6 p-2 max-md:tracking-wider">
           Your email is safe with us.
         </p>
       </div>
