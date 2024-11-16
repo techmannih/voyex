@@ -162,3 +162,34 @@ html, body {
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 } */
+ /* Enable horizontal scroll and snap for small screens */
+@media (max-width: 830px) {
+  .horizontal-scroll {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory; 
+    padding-bottom: 16px; 
+  }
+
+  /* Style the scrollbar */
+  .horizontal-scroll::-webkit-scrollbar {
+    height: 8px; /* Scrollbar height */
+  }
+
+  .horizontal-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 167, 102, 0.5); 
+    border-radius: 4px;
+  }
+
+  .horizontal-scroll::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+
+  .template-card {
+    scroll-snap-align: start;
+    flex-shrink: 0; 
+  }
+}

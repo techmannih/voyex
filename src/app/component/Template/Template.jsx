@@ -12,10 +12,11 @@ const truncateDescription = (description, wordLimit) => {
 
 export default function Template() {
   return (
-    <div className=" text-white mt-32 mx-[60px] max-md:mx-[16px] smooth-scroll">
+    <div className="text-white mt-32 mx-[60px] max-md:mx-[16px] smooth-scroll">
+      {/* Header Section */}
       <div className="flex flex-col items-center justify-center text-center mb-8">
         <p className="text-[rgba(70,186,60,1)]">Use Templates</p>
-        <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-[0.02em] mb-4">
+        <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-[0.02em] mb-4 max-md:text-[32px] max-md:leading-[40px]">
           Get Started with our Templates options
         </h1>
         <button className="mt-4 bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-2 px-6 rounded-full text-[14px] font-medium leading-[17.92px] custom-border">
@@ -23,11 +24,12 @@ export default function Template() {
         </button>
       </div>
 
-      <div className="flex justify-center flex-wrap gap-4 mt-8 max-w-7xl mx-auto p-2">
+      {/* Template Cards - Carousel for small screens */}
+      <div className="horizontal-scroll max-w-7xl mx-auto p-2 max-md:px-4 flex flex-wrap gap-4 md:justify-center">
         {templateData.map((template) => (
           <div
             key={template.id}
-            className="w-[333.17px] h-[228px] p-[24px] border border-gray-700 rounded-[25px] flex flex-col justify-between backdrop-blur-3xl"
+            className="template-card w-[333.17px] h-[228px] p-[24px] border border-gray-700 rounded-[25px] flex flex-col justify-between backdrop-blur-3xl"
             style={{
               background:
                 "linear-gradient(90.83deg, rgba(0, 167, 102, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%)",
@@ -40,14 +42,14 @@ export default function Template() {
                   alt={truncateDescription(template.title, 1)}
                   width={40}
                   height={40}
+                  className="object-contain"
                 />
-                <div className="ml-2 text-white text-2xl font-bold"></div>
               </div>
               <div className="absolute top-0 right-0 m-2 text-white text-2xl font-bold">
                 <CiStar />
               </div>
             </div>
-            <h1 className="text-[16px] font-bold leading-[20.48px] items-center">
+            <h1 className="text-[16px] font-bold leading-[20.48px] items-center max-md:text-[14px]">
               {template.title}
             </h1>
 
