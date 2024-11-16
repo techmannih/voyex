@@ -17,7 +17,7 @@ export default function Goal() {
         </p>
         <div className="w-full mt-8">
           <ul className="list-none flex flex-wrap max-md:flex-col">
-            <li className="w-1/2 md:w-full text-[16px] md:text-[17.9px] font-normal leading-[22px] md:leading-[26px] tracking-[-0.144px] text-left p-2 flex">
+            <li className=" md:w-full text-[16px] md:text-[17.9px] font-normal leading-[22px] md:leading-[26px] tracking-[-0.144px] text-left md:p-2 max-md:py-2 flex">
               <span>
                 <Image
                   src={Icon}
@@ -29,7 +29,7 @@ export default function Goal() {
               </span>
               Ask deeper questions
             </li>
-            <li className="w-1/2 md:w-full text-[16px] md:text-[17.9px] font-normal leading-[22px] md:leading-[26px] tracking-[-0.144px] text-left p-2 flex">
+            <li className=" md:w-full text-[16px] md:text-[17.9px] font-normal leading-[22px] md:leading-[26px] tracking-[-0.144px] text-left md:p-2 max-md:py-2 flex">
               <span>
                 <Image
                   src={Icon}
@@ -41,7 +41,7 @@ export default function Goal() {
               </span>
               Automate campaigns
             </li>
-            <li className="w-1/2 md:w-full text-[16px] md:text-[17.9px] font-normal leading-[22px] md:leading-[26px] tracking-[-0.144px] text-left p-2 flex">
+            <li className=" md:w-full text-[16px] md:text-[17.9px] font-normal leading-[22px] md:leading-[26px] tracking-[-0.144px] text-left md:p-2 max-md:py-2 flex">
               <span>
                 <Image
                   src={Icon}
@@ -53,7 +53,7 @@ export default function Goal() {
               </span>
               Track performance metrics
             </li>
-            <li className="w-1/2 md:w-full text-[16px] md:text-[17.9px] font-normal leading-[22px] md:leading-[26px] tracking-[-0.144px] text-left p-2 flex">
+            <li className=" md:w-full text-[16px] md:text-[17.9px] font-normal leading-[22px] md:leading-[26px] tracking-[-0.144px] text-left md:p-2 max-md:py-2 flex">
               <span>
                 <Image
                   src={Icon}
