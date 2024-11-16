@@ -28,15 +28,15 @@ export default function Discover() {
           recommendations, ensuring it reaches users who need it most.
         </p>
         <div className="flex justify-center mt-8 gap-6  max-md:items-center max-md:flex-col max-md:gap-[24px]">
-          <button className="mt-8 max-md:mt-0 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
-            <span className="text-black text-[14px] font-normal leading-[17.92px] ">
+          <button className="mt-8 max-md:mt-0 w-[208.45px] h-[36.91px] max-md:w-[246.45px] max-md:h-[54.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
+            <span className="text-black text-[14px] font-normal leading-[17.92px] max-md:text-[21px] max-md:leading-[26px] ">
               Get Started
             </span>
             {/* <IoArrowForwardOutline className="text-[rgba(70,186,60,1)]" /> */}
           </button>
 
-          <button className="mt-8  max-md:mt-0 w-[208.45px] h-[38.91px] text-md font-normal  border-[1.48px] border-solid border-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">
-            <span className="text-[rgba(70,186,60,1)] ">Find out more</span>
+          <button className="mt-8  max-md:mt-0 w-[208.45px] h-[38.91px] max-md:w-[246.45px] max-md:h-[54.91px] text-md font-normal  border-[1.48px] max-md:border-[2.26px] border-solid border-[rgba(70,186,60,1)]  rounded-full opacity-100 flex justify-center px-6 items-center">
+            <span className="text-[rgba(70,186,60,1)] max-md:text-[21px] max-md:leading-[26px]">Find out more</span>
             {/* <IoArrowForwardOutline  className="text-[rgba(70,186,60,1)]" /> */}
           </button>
         </div>

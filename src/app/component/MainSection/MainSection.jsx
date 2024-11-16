@@ -65,10 +65,20 @@ export default function MainSection() {
       transition={{ duration: 2, type: "spring", stiffness: 50, damping: 20 }}
     >
       <h1
-        className="font-medium leading-[110.08px] md:tracking-wider mx-auto mt-24 text-[86px] gap-[10px] max-sm:text-[48px] max-sm:leading-[61px] max-md:text-[72px] max-md:leading-[84px] max-lg:text-[86px] max-lg:leading-[110px] max-w-full"
+        className="font-medium leading-[110.08px] md:tracking-wider mx-auto mt-24 text-[86px] gap-[10px] max-xl:hidden"
         style={{ width: headings[currentIndex].width }}
       >
         {headings[currentIndex].text}
+      </h1>
+      <h1
+        className="font-medium leading-[110.08px] xl:hidden md:tracking-wider mx-auto mt-24 text-[86px] gap-[10px] max-sm:text-[48px] max-sm:leading-[61px] max-md:text-[72px] max-md:leading-[84px] max-lg:text-[86px] max-lg:leading-[110px] max-w-full"
+        
+      >
+        Turn{" "}
+        <span style={{ color: "#84DE7C" }} className="font-medium">
+          Ideas into Workflows
+        </span>{" "}
+        in one click
       </h1>
 
       <div className="flex justify-center mt-8">
@@ -85,11 +95,11 @@ export default function MainSection() {
       </div>
 
       <div className="flex justify-center max-md:items-center mt-8 gap-6 max-md:flex-col max-md:gap-[24px]">
-        <button className="mt-8  max-md:mt-0 w-[208.45px] h-[36.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
-          <span className="text-black text-[14px]">Start Your AI Journey</span>
+        <button className="mt-8  max-md:mt-0 w-[208.45px] h-[36.91px] max-md:w-[287.45px] max-md:h-[48.91px] bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] rounded-full flex justify-center items-center opacity-100 px-6 custom-border">
+          <span className="text-black text-[14px] max-md:text-[18px] max-md:leading-[24px]">Start Your AI Journey</span>
         </button>
-        <button className="mt-8  max-md:mt-0 w-[208.45px] h-[38.91px] border-[1.48px] border-solid border-[rgba(70,186,60,1)] rounded-full opacity-100 flex justify-center px-6 items-center">
-          <span className="text-[rgba(70,186,60,1)]">Upload Product</span>
+        <button className="mt-8  max-md:mt-0 w-[208.45px] h-[38.91px] max-md:w-[287.45px] max-md:h-[48.91px] border-[1.48px] max-md:border-[2.26px] border-solid border-[rgba(70,186,60,1)] rounded-full opacity-100 flex justify-center px-6 items-center">
+          <span className="text-[rgba(70,186,60,1)] max-md:text-[18px] max-md:leading-[24px]">Upload Product</span>
         </button>
       </div>
 
