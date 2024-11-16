@@ -11,27 +11,34 @@ import Template from "./component/Template/Template";
 import Contact from "./component/Contact/contact";
 import Goal from "./component/Goal/goal";
 import Discover from "./component/Discover/discover";
+import StarsCanvas from "./component/Subscribe/StarBackground"; // Adjust path as needed
 
 // import Pricing from "./component/Pricing/Pricing";
 
 export default function Home() {
   return (
-    <div className="w-full">
-      <Navbar />
-      <MainSection />
-      {/* <Pricing /> */}
+    <div className="relative w-full h-screen">
+      {/* Starry Background */}
+      <StarsCanvas />
 
-      <Research />
-      <Goal />
-      <Template />
-      <Funding />
-      <Sponsor />
-      {/* <BlogPost /> */}
-      <Discover />
-      <Faq />
-      <Subscribe />
-      <Contact />
-      <Footer />
+      {/* Your App Content */}
+      <div className="relative">
+        <Navbar />
+        <MainSection />
+        {/* <Pricing /> */}
+
+        <Research />
+        <Goal />
+        <Template />
+        <Funding />
+        <Sponsor />
+        {/* <BlogPost /> */}
+        <Discover />
+        <Faq />
+        <Subscribe />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
 }
