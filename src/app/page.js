@@ -11,7 +11,7 @@ import Template from "./component/Template/Template";
 import Contact from "./component/Contact/contact";
 import Goal from "./component/Goal/goal";
 import Discover from "./component/Discover/discover";
-import StarsCanvas from "./component/Subscribe/StarBackground"; // Adjust path as needed
+import StarsCanvas from "./component/hooks/StarBackground"; // Adjust path as needed
 
 // import Pricing from "./component/Pricing/Pricing";
 

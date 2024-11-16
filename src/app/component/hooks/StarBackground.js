@@ -1,8 +1,7 @@
 "use client";
-
 import React, { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Points, PointMaterial, Preload } from "@react-three/drei";
+import { Points, PointMaterial } from "@react-three/drei";
 // @js-ignore
 import * as random from "maath/random/dist/maath-random.esm";
 
@@ -25,7 +24,7 @@ const StarBackground = (props) => {
           color="#464645"
           size={0.004}
           sizeAttenuation={true}
-          dethWrite={false}
+          depthWrite={false}
         />
       </Points>
     </group>
@@ -33,7 +32,7 @@ const StarBackground = (props) => {
 };
 
 const StarsCanvas = () => (
-  <div className="absolute top-0 left-0 bottom-0 right-0 z-[1]">
+  <div className="fixed top-0 left-0 w-full h-full z-[-1]">
     <Canvas camera={{ position: [0, 0, 1] }}>
       <Suspense fallback={null}>
         <StarBackground />

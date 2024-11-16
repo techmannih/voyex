@@ -52,13 +52,25 @@
 
 /* Define additional font styles as needed */
 
+/* globals.css */
+
 body {
-  font-family: "FK Grotesk Neue", sans-serif; /* Use your font */
-  background-image: url("../../assets/Background.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  font-family: "FK Grotesk Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../../assets/Background.png"); /* Background image path */
+  background-attachment: fixed; /* Make sure it behaves like a fixed background */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Don't repeat the image */
+  background-size: cover; /* Cover the entire viewport */
+  height: 100%; /* Ensure the body covers the full height */
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
+
+html, body {
+  height: 100%; /* Ensure the page takes full height */
+}
+
 
 ::-webkit-scrollbar {
   display: none;
