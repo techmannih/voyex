@@ -13,7 +13,15 @@ export default function Funding() {
             Sponsors and Partnerships
           </p>
 
-          <h1 className="text-4xl font-medium text-left text-[rgba(114,249,103,1)] mt-2 max-sm:text-[24px] leading-[30.70px]">
+          <h1
+            className="text-4xl font-medium text-left  mt-2 max-sm:text-[24px] leading-[30.70px]"
+            style={{
+              background:
+                "linear-gradient(90deg, #84DE7C 0%, #72F967 50%, #51CC47 100%), linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))",
+              WebkitBackgroundClip: "text", // Needed for Chrome/Safari
+              color: "transparent", // Makes the text color transparent so the background is visible
+            }}
+          >
             An Ecosystem of AI Partnerships
             <br /> Unlocking Boundless Innovation
           </h1>
@@ -34,7 +42,7 @@ export default function Funding() {
                 boxShadow: "0px 1.86px 15.83px 0px rgba(22, 22, 22, 0.1)",
               }}
             >
-               <h2 className="font-normal text-sm tracking-[0.93125px] mb-2 uppercase text-left">
+              <h2 className="font-normal text-sm tracking-[0.93125px] mb-2 uppercase text-left">
                 Partners
               </h2>
 

@@ -7,7 +7,13 @@ export default function Goal() {
     <div className="flex flex-col md:flex-row justify-between mt-20 mx-[60px] max-md:mx-[16px] text-white relative smooth-scroll">
       <div className="w-full md:w-[50%] items-center max-w-[800px] h-auto">
         <h1
-          className="text-[#2DE21D] text-[48px] font-medium leading-[61px] tracking-[-3.6px] max-sm:text-[40px] max-sm:leading-[50px] max-md:text-[60px] max-md:leading-[70px] mt-4 md:text-[69.9px] md:leading-[74px]"
+          className="text-[69.9px] font-medium leading-[74px] tracking-[-3.6px]"
+          style={{
+            background:
+              "linear-gradient(90deg, #84DE7C 0%, #72F967 50%, #51CC47 100%), linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0))",
+            WebkitBackgroundClip: "text", // Needed for Chrome/Safari
+            color: "transparent", // Makes the text color transparent so the background is visible
+          }}
         >
           The Future of Automation: Agent-Based Workflows
         </h1>
