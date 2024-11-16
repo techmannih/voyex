@@ -16,7 +16,7 @@ export default function Template() {
       {/* Header Section */}
       <div className="flex flex-col items-center justify-center text-center mb-8">
         <p className="text-[rgba(70,186,60,1)]">Use Templates</p>
-        <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] tracking-[0.02em] mb-4 max-md:text-[32px] max-md:leading-[40px]">
+        <h1 className="font-fk-grotesk text-[48px] font-bold leading-[61.44px] md:tracking-[0.02em] mb-4 max-md:text-[36px] max-md:leading-[46px]">
           Get Started with our Templates options
         </h1>
         <button className="mt-4 bg-gradient-to-r from-[#84DE7C] to-[#2DE21D] text-black py-2 px-6 rounded-full text-[14px] font-medium leading-[17.92px] custom-border">
